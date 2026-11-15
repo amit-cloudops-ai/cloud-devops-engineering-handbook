@@ -1,7 +1,6 @@
 # Templates
 
-Use the templates to keep material consistent:
-- [Topic](topic-template.md)
-- [Lab](lab-template.md)
-- [Interview question](interview-template.md)
-- [Incident](incident-template.md)
+- [Topic template](topic-template.md)
+- [Lab template](lab-template.md)
+- [Interview question template](interview-template.md)
+- [Incident template](incident-template.md)
