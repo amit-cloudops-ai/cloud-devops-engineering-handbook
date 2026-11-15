@@ -26,6 +26,12 @@ This is a public learning system and engineering portfolio. It turns study into 
 | [12 — Interview preparation](12-interview-preparation/README.md) | Role-based questions, scenarios and mock interviews |
 | [13 — System design](13-system-design/README.md) | Cloud architecture and distributed systems |
 | [14 — Resources](14-resources/README.md) | Official docs, articles, videos and job descriptions |
+| [15 — Practical labs](15-practical-labs/README.md) | Reproducible exercises and validation evidence |
+| [16 — Engineering case studies](16-engineering-case-studies/README.md) | Production incidents and architecture analysis |
+| [17 — Interview intelligence](17-interview-intelligence/README.md) | Question practice, company reports and mock tracking |
+| [Resource index](RESOURCE-INDEX.md) | Curated external repositories and learning platforms |
+| [Lab index](15-practical-labs/README.md) | Prioritized practical backlog |
+| [Interview tracker](INTERVIEW-TRACKER.md) | Topic and mock-interview tracking |
 | [Templates](templates/README.md) | Consistent formats for topics, labs and interviews |
 
 ## Target role families
@@ -69,7 +75,7 @@ Agents default to read-only investigation. Any operation that changes infrastruc
 
 ## Current status
 
-This repository begins as a handbook scaffold. A listed directory does not mean its subject is complete or mastered. The roadmap and progress tracker are the source of truth.
+The handbook is an evolving scaffold with curated resource, lab, case-study and interview indexes. A listed directory or external resource does not mean its subject is complete or mastered. The roadmap and progress tracker are the source of truth.
 
 ## License
 

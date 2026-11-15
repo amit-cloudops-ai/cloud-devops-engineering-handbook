@@ -25,6 +25,12 @@ This is a prioritized sequence, not a claim that every subject can be mastered i
 | 13 | System design | P2 | Defend resilient, secure, observable and cost-aware architectures |
 | 14 | Azure and GCP | P2 | Understand service mappings after the AWS foundation |
 
+## Resource-backed study path
+
+Use [RESOURCE-INDEX.md](RESOURCE-INDEX.md) to choose a source, [15-practical-labs](15-practical-labs/README.md) to select an exercise, [16-engineering-case-studies](16-engineering-case-studies/README.md) to develop production reasoning and [17-interview-intelligence](17-interview-intelligence/README.md) to test recall and explanation.
+
+Do not complete every external repository. Select one resource per gap, build evidence, then move on.
+
 ## 30-day execution framework
 
 ### Days 1–3 — Baseline and repair
@@ -34,16 +40,16 @@ This is a prioritized sequence, not a claim that every subject can be mastered i
 - Start applying immediately; preparation must not delay applications.
 
 ### Days 4–9 — Core infrastructure
-Linux troubleshooting, DNS, TCP, HTTP/S, TLS, SSH, routing, Git workflows, Bash and Python automation. Complete timed practical drills.
+Linux troubleshooting, DNS, TCP, HTTP/S, TLS, SSH, routing, Git workflows, Bash and Python automation. Use LAB-LNX-01 and LAB-NET-01 as practical anchors.
 
 ### Days 10–15 — Cloud and containers
-IAM, EC2, VPC, subnets, routing, gateways, security groups, S3, CloudWatch, Dockerfiles, networking, volumes, Compose and debugging.
+IAM, EC2, VPC, subnets, routing, gateways, security groups, S3, CloudWatch, Dockerfiles, networking, volumes, Compose and debugging. Prefer local/emulated work or hosted sandboxes until cloud cost and permissions are reviewed.
 
 ### Days 16–20 — Delivery and orchestration
-GitHub Actions, pipeline stages, secrets, artifacts, approvals, rollback, Kubernetes objects, probes, services, configuration, storage and Terraform fundamentals.
+GitHub Actions, pipeline stages, secrets, artifacts, approvals, rollback, Kubernetes objects, probes, services, configuration, storage and Terraform fundamentals. Use Online Boutique as an optional multi-service study application.
 
 ### Days 21–24 — Reliability and security
-Metrics, logs, alerting, dashboards, SLIs/SLOs, incident response, least privilege, secret handling, vulnerability scanning and cost controls.
+Metrics, logs, alerting, dashboards, SLIs/SLOs, incident response, least privilege, secret handling, vulnerability scanning and cost controls. Analyse at least one original post-mortem report.
 
 ### Days 25–27 — Agentic operations
 Agent architecture, tool calling, bounded execution, structured outputs, safety controls and evaluation. Demonstrate read-only diagnosis and approval gates.

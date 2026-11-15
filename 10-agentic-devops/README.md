@@ -19,4 +19,10 @@ Study how tool-using AI agents support cloud and infrastructure operations. Agen
 - Kubernetes diagnostic assistant: inspect workload status and propose next steps.
 - CI/CD failure assistant: explain failed stages and suggest reproducible fixes.
 
+## Supplementary learning
+- [AI-Assisted DevOps](https://github.com/iam-veeramalla/ai-assisted-devops) — syllabus-style material covering AI for DevOps, prompting, local LLMs, scripting, observability and agent projects.
+- [DevOps AI Playbook](https://github.com/vishakhasadhwani/devops-ai-playbook) — an end-to-end project description connecting microservices, CI, GitOps, Terraform, Kubernetes and AIOps.
+
+Use these as learning references. Verify repository code, dependencies, cloud configuration, current model/provider behaviour and cost before implementation. Do not blindly execute generated shell commands, Terraform or Kubernetes manifests.
+
 Read the [safety model](safety-model.md) before designing agents with operational access.

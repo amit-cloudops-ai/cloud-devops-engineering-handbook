@@ -17,3 +17,11 @@ Prepare by role while building from shared fundamentals.
 5. Design — choose an approach and defend trade-offs.
 
 Answer aloud without reading. State assumptions, ask clarifying questions when needed, and be honest about what you have not used or verified in production.
+
+## Interview intelligence
+
+Use the [Interview Intelligence system](../17-interview-intelligence/README.md) and [tracker](../INTERVIEW-TRACKER.md) for topic drills, company-reported experiences and mock interviews. The [DevOps Interview Guide](https://github.com/litu54/DevOps-Interview-Guide) is a source of reported candidate experiences; it is not an official company syllabus.
+
+## Practical evidence
+
+Pair question practice with a relevant lab from [15 — Practical Labs](../15-practical-labs/README.md). For incident and system-design rounds, use [16 — Engineering Case Studies](../16-engineering-case-studies/README.md). A memorized answer without the ability to demonstrate or troubleshoot the concept is not interview readiness.
