@@ -9,6 +9,8 @@ STAGES=DATA["statuses"]; skills=DATA["skills"]; items=DATA["detailed_competencie
 if any(x["status"] not in STAGES+["Not assessed"] for x in items): raise SystemExit("Invalid granular status")
 legacy_points=sum(STAGES.index(x["status"]) for x in skills); legacy_max=len(skills)*5
 legacy_pct=round(legacy_points/legacy_max*100) if legacy_max else 0
+overall_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260"><circle cx="130" cy="130" r="99" fill="#111b24" stroke="#263642" stroke-width="16"/><circle cx="130" cy="130" r="99" fill="none" stroke="#45d6ad" stroke-width="16" stroke-linecap="round" stroke-dasharray="{2*math.pi*99*legacy_pct/100:.1f} {2*math.pi*99:.1f}" transform="rotate(-90 130 130)"/><text x="130" y="119" text-anchor="middle" font-family="Arial" font-size="43" font-weight="700" fill="#f2f7f9">{legacy_pct}%</text><text x="130" y="148" text-anchor="middle" font-family="Arial" font-size="13" fill="#a8bbc6">READINESS</text><text x="130" y="174" text-anchor="middle" font-family="Arial" font-size="11" fill="#8299a7">{legacy_points} / {legacy_max} points</text></svg>"""
+(ROOT/"assets"/"preparation-progress.svg").write_text(overall_svg,encoding="utf-8")
 def stats(rows):
     assessed=[x for x in rows if x["status"]!="Not assessed"]; maximum=len(assessed)*5
     return (round(sum(STAGES.index(x["status"]) for x in assessed)/maximum*100) if maximum else None,len(assessed),len(rows))
