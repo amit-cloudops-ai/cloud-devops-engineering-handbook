@@ -12,7 +12,7 @@ This is a public learning system and engineering portfolio. It turns preparation
 <details>
 <summary><strong>Preparation dashboard</strong> — track competency progress</summary>
 
-Open the [interactive progress dashboard](dashboard/index.html). It tracks skill readiness by evidence, supports browser-local edits and exports a JSON snapshot. Browser edits do not automatically sync to GitHub; update dashboard/progress.json to persist a new baseline.
+See [dashboard setup](dashboard/README.md) to open the interactive progress dashboard locally or publish it with GitHub Pages. It tracks skills and project evidence, supports browser-local edits and exports a JSON snapshot. Browser edits do not automatically sync to GitHub; update dashboard/progress.json to persist a new baseline.
 </details>
 
 | Start point | What it contains |
