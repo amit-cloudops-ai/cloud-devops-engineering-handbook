@@ -9,11 +9,28 @@ This is a public learning system and engineering portfolio. It turns preparation
 
 ## Start here
 
-<details>
-<summary><strong>Preparation dashboard</strong> — track competency progress</summary>
+<!-- PREP-PROGRESS:START -->
+<p align="center">
+  <img src="assets/preparation-progress.svg" alt="Cloud and DevOps preparation readiness: 9%" width="190">
+</p>
 
-See [dashboard setup](dashboard/README.md) to open the interactive progress dashboard locally or publish it with GitHub Pages. It tracks skills and project evidence, supports browser-local edits and exports a JSON snapshot. Browser edits do not automatically sync to GitHub; update dashboard/progress.json to persist a new baseline.
-</details>
+<p align="center">
+  <strong>9% readiness progress</strong> · 14 of 150 weighted competency points · 30 tracked skills
+</p>
+
+| Readiness stage | Skills |
+|---|---:|
+| Not started | 16 |
+| Learning | 14 |
+| Lab completed | 0 |
+| Documented | 0 |
+| Interview tested | 0 |
+| Interview ready | 0 |
+
+**Portfolio evidence:** 0 / 20 project evidence checks complete across 4 tracked projects.
+
+Progress is calculated from the six readiness stages (0–5 points per skill). A skill only earns credit for its current evidence-backed stage. Update the root `progress.json`; GitHub Actions regenerates this README section and the circular graphic automatically.
+<!-- PREP-PROGRESS:END -->
 
 | Start point | What it contains |
 |---|---|
@@ -95,7 +112,7 @@ Agents default to read-only investigation. Any operation that changes infrastruc
 
 ## Current status
 
-The handbook now includes a role-based skill inventory, original question and scenario banks, an AI infrastructure curriculum and an interactive progress dashboard. The learning material is a curriculum, not proof of mastery. Use the progress tracker and project evidence as the source of truth.
+The handbook now includes a role-based skill inventory, original question and scenario banks, an AI infrastructure curriculum and an automatically updated README progress indicator. The learning material is a curriculum, not proof of mastery. Use the progress tracker and project evidence as the source of truth.
 
 ## License
 
