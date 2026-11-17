@@ -18,6 +18,7 @@ Open the [interactive progress dashboard](dashboard/index.html). It tracks skill
 | Start point | What it contains |
 |---|---|
 | [Skill & Tool Matrix](SKILL-MATRIX.md) | Full role-based inventory across Cloud, DevOps, SRE, Platform, AI infrastructure and agentic engineering |
+| [Project Readiness](PROJECT-READINESS.md) | Portfolio status, evidence gates and project priority order |
 | [Interview Question Bank](INTERVIEW-QUESTION-BANK.md) | 210 original practice questions across 13 engineering domains |
 | [Scenario Playbook](SCENARIO-PLAYBOOK.md) | 100 production troubleshooting, design and incident scenarios |
 | [AI Infrastructure Curriculum](AI-INFRASTRUCTURE.md) | GPU, inference, RAG, MLOps, LLM platforms, MCP, agents and AIOps |

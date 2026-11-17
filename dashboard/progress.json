@@ -1,36 +1,371 @@
 {
   "updated": "2026-11-17",
-  "statuses": ["Not started", "Learning", "Lab completed", "Documented", "Interview tested", "Interview ready"],
+  "statuses": [
+    "Not started",
+    "Learning",
+    "Lab completed",
+    "Documented",
+    "Interview tested",
+    "Interview ready"
+  ],
   "skills": [
-    {"id":"linux","name":"Linux & OS","track":"Core systems","priority":"P0","status":"Learning","next":"Complete process, disk, memory and systemd troubleshooting drill."},
-    {"id":"networking","name":"Networking & web","track":"Core systems","priority":"P0","status":"Not started","next":"Trace DNS → TCP → TLS → HTTP and diagnose one failed path."},
-    {"id":"git","name":"Git & GitHub","track":"Core systems","priority":"P0","status":"Learning","next":"Practise conflict resolution, reflog and safe recovery."},
-    {"id":"bash","name":"Bash automation","track":"Core systems","priority":"P0","status":"Learning","next":"Build a tested health-check script with logging and exit codes."},
-    {"id":"python","name":"Python automation","track":"Core systems","priority":"P0","status":"Learning","next":"Build an API/JSON utility with tests, retries and timeouts."},
-    {"id":"aws-iam","name":"AWS IAM & security","track":"Cloud engineering","priority":"P0","status":"Learning","next":"Explain trust policies, policy evaluation and least privilege."},
-    {"id":"aws-network","name":"AWS VPC & networking","track":"Cloud engineering","priority":"P0","status":"Learning","next":"Trace public/private subnet routing and endpoint connectivity."},
-    {"id":"aws-services","name":"AWS compute, storage & data","track":"Cloud engineering","priority":"P0","status":"Learning","next":"Explain EC2, S3, RDS, SQS and Lambda selection."},
-    {"id":"aws-ops","name":"AWS operations & FinOps","track":"Cloud engineering","priority":"P1","status":"Not started","next":"Build a cost review and monitoring plan without provisioning resources."},
-    {"id":"docker","name":"Docker & Compose","track":"Delivery platform","priority":"P0","status":"Learning","next":"Rebuild and troubleshoot the existing multi-container project."},
-    {"id":"cicd","name":"CI/CD & GitHub Actions","track":"Delivery platform","priority":"P0","status":"Learning","next":"Create a tested pipeline with scan, artifact and approval gates."},
-    {"id":"terraform","name":"Terraform / IaC","track":"Delivery platform","priority":"P1","status":"Not started","next":"Practise plan, state, modules, drift and policy checks."},
-    {"id":"kubernetes","name":"Kubernetes","track":"Delivery platform","priority":"P0","status":"Not started","next":"Use kind or Killercoda to diagnose common Pod and Service failures."},
-    {"id":"helm-gitops","name":"Helm & GitOps","track":"Delivery platform","priority":"P1","status":"Not started","next":"Package a chart and explain Argo CD reconciliation."},
-    {"id":"observability","name":"Observability","track":"SRE & security","priority":"P1","status":"Not started","next":"Create metrics, logs, traces and an actionable alert."},
-    {"id":"sre","name":"SRE & incident response","track":"SRE & security","priority":"P1","status":"Not started","next":"Analyse a postmortem and write a timeline with corrective actions."},
-    {"id":"security","name":"DevSecOps & cloud security","track":"SRE & security","priority":"P1","status":"Learning","next":"Review secret handling, image scanning and least-privilege controls."},
-    {"id":"finops","name":"FinOps & cost engineering","track":"SRE & security","priority":"P1","status":"Not started","next":"Identify cloud cost drivers and design budget alerts."},
-    {"id":"system-design","name":"System design & distributed systems","track":"Architecture","priority":"P1","status":"Not started","next":"Design a resilient queue-based service and explain trade-offs."},
-    {"id":"ai-fundamentals","name":"AI / LLM fundamentals","track":"AI infrastructure","priority":"P1","status":"Not started","next":"Explain tokens, embeddings, context windows, quantization and RAG."},
-    {"id":"gpu","name":"GPU & inference infrastructure","track":"AI infrastructure","priority":"P1","status":"Not started","next":"Measure local model latency, tokens/sec and memory use."},
-    {"id":"model-serving","name":"Model serving & gateways","track":"AI infrastructure","priority":"P1","status":"Not started","next":"Compare one inference server and design a model gateway."},
-    {"id":"mlops","name":"MLOps & model lifecycle","track":"AI infrastructure","priority":"P2","status":"Not started","next":"Map experiment tracking, registry, deployment and monitoring."},
-    {"id":"rag","name":"RAG & vector databases","track":"AI infrastructure","priority":"P1","status":"Not started","next":"Build retrieval with source citations and evaluation cases."},
-    {"id":"agent-architecture","name":"Agent architecture & tool calling","track":"Agentic AI","priority":"P1","status":"Learning","next":"Build a read-only tool-calling loop with typed schemas."},
-    {"id":"mcp","name":"MCP & workflow orchestration","track":"Agentic AI","priority":"P1","status":"Not started","next":"Explain MCP host/client/server and build a scoped tool server."},
-    {"id":"agent-safety","name":"Agent safety, evaluation & observability","track":"Agentic AI","priority":"P1","status":"Not started","next":"Add prompt-injection tests, approval gates and run tracing."},
-    {"id":"projects","name":"Portfolio projects & walkthroughs","track":"Career readiness","priority":"P0","status":"Learning","next":"Verify README, architecture, tests, demo and limitations for each project."},
-    {"id":"interviews","name":"Interview questions & scenarios","track":"Career readiness","priority":"P0","status":"Learning","next":"Answer 10–15 questions aloud and score five scenarios."},
-    {"id":"job-search","name":"Applications & company research","track":"Career readiness","priority":"P0","status":"Learning","next":"Match target roles to evidence and maintain a company outreach log."}
+    {
+      "id": "linux",
+      "name": "Linux & OS",
+      "track": "Core systems",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Complete process, disk, memory and systemd troubleshooting drill."
+    },
+    {
+      "id": "networking",
+      "name": "Networking & web",
+      "track": "Core systems",
+      "priority": "P0",
+      "status": "Not started",
+      "next": "Trace DNS → TCP → TLS → HTTP and diagnose one failed path."
+    },
+    {
+      "id": "git",
+      "name": "Git & GitHub",
+      "track": "Core systems",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Practise conflict resolution, reflog and safe recovery."
+    },
+    {
+      "id": "bash",
+      "name": "Bash automation",
+      "track": "Core systems",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Build a tested health-check script with logging and exit codes."
+    },
+    {
+      "id": "python",
+      "name": "Python automation",
+      "track": "Core systems",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Build an API/JSON utility with tests, retries and timeouts."
+    },
+    {
+      "id": "aws-iam",
+      "name": "AWS IAM & security",
+      "track": "Cloud engineering",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Explain trust policies, policy evaluation and least privilege."
+    },
+    {
+      "id": "aws-network",
+      "name": "AWS VPC & networking",
+      "track": "Cloud engineering",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Trace public/private subnet routing and endpoint connectivity."
+    },
+    {
+      "id": "aws-services",
+      "name": "AWS compute, storage & data",
+      "track": "Cloud engineering",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Explain EC2, S3, RDS, SQS and Lambda selection."
+    },
+    {
+      "id": "aws-ops",
+      "name": "AWS operations & FinOps",
+      "track": "Cloud engineering",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Build a cost review and monitoring plan without provisioning resources."
+    },
+    {
+      "id": "docker",
+      "name": "Docker & Compose",
+      "track": "Delivery platform",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Rebuild and troubleshoot the existing multi-container project."
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD & GitHub Actions",
+      "track": "Delivery platform",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Create a tested pipeline with scan, artifact and approval gates."
+    },
+    {
+      "id": "terraform",
+      "name": "Terraform / IaC",
+      "track": "Delivery platform",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Practise plan, state, modules, drift and policy checks."
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "track": "Delivery platform",
+      "priority": "P0",
+      "status": "Not started",
+      "next": "Use kind or Killercoda to diagnose common Pod and Service failures."
+    },
+    {
+      "id": "helm-gitops",
+      "name": "Helm & GitOps",
+      "track": "Delivery platform",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Package a chart and explain Argo CD reconciliation."
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "track": "SRE & security",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Create metrics, logs, traces and an actionable alert."
+    },
+    {
+      "id": "sre",
+      "name": "SRE & incident response",
+      "track": "SRE & security",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Analyse a postmortem and write a timeline with corrective actions."
+    },
+    {
+      "id": "security",
+      "name": "DevSecOps & cloud security",
+      "track": "SRE & security",
+      "priority": "P1",
+      "status": "Learning",
+      "next": "Review secret handling, image scanning and least-privilege controls."
+    },
+    {
+      "id": "finops",
+      "name": "FinOps & cost engineering",
+      "track": "SRE & security",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Identify cloud cost drivers and design budget alerts."
+    },
+    {
+      "id": "system-design",
+      "name": "System design & distributed systems",
+      "track": "Architecture",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Design a resilient queue-based service and explain trade-offs."
+    },
+    {
+      "id": "ai-fundamentals",
+      "name": "AI / LLM fundamentals",
+      "track": "AI infrastructure",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Explain tokens, embeddings, context windows, quantization and RAG."
+    },
+    {
+      "id": "gpu",
+      "name": "GPU & inference infrastructure",
+      "track": "AI infrastructure",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Measure local model latency, tokens/sec and memory use."
+    },
+    {
+      "id": "model-serving",
+      "name": "Model serving & gateways",
+      "track": "AI infrastructure",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Compare one inference server and design a model gateway."
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & model lifecycle",
+      "track": "AI infrastructure",
+      "priority": "P2",
+      "status": "Not started",
+      "next": "Map experiment tracking, registry, deployment and monitoring."
+    },
+    {
+      "id": "rag",
+      "name": "RAG & vector databases",
+      "track": "AI infrastructure",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Build retrieval with source citations and evaluation cases."
+    },
+    {
+      "id": "agent-architecture",
+      "name": "Agent architecture & tool calling",
+      "track": "Agentic AI",
+      "priority": "P1",
+      "status": "Learning",
+      "next": "Build a read-only tool-calling loop with typed schemas."
+    },
+    {
+      "id": "mcp",
+      "name": "MCP & workflow orchestration",
+      "track": "Agentic AI",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Explain MCP host/client/server and build a scoped tool server."
+    },
+    {
+      "id": "agent-safety",
+      "name": "Agent safety, evaluation & observability",
+      "track": "Agentic AI",
+      "priority": "P1",
+      "status": "Not started",
+      "next": "Add prompt-injection tests, approval gates and run tracing."
+    },
+    {
+      "id": "projects",
+      "name": "Portfolio projects & walkthroughs",
+      "track": "Career readiness",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Verify README, architecture, tests, demo and limitations for each project."
+    },
+    {
+      "id": "interviews",
+      "name": "Interview questions & scenarios",
+      "track": "Career readiness",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Answer 10–15 questions aloud and score five scenarios."
+    },
+    {
+      "id": "job-search",
+      "name": "Applications & company research",
+      "track": "Career readiness",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Match target roles to evidence and maintain a company outreach log."
+    }
+  ],
+  "projects": [
+    {
+      "id": "aws-auditor",
+      "name": "AWS Infrastructure Auditor",
+      "status": "Implementation audit required",
+      "next": "Verify scope, IAM permissions, pagination, tests and a sanitized sample report.",
+      "url": "../11-projects/aws-infrastructure-auditor/README.md",
+      "checklist": [
+        {
+          "label": "Confirm implemented AWS services and resource scope",
+          "done": false
+        },
+        {
+          "label": "Review read-only IAM policy and authorization tests",
+          "done": false
+        },
+        {
+          "label": "Verify pagination, retries and error handling",
+          "done": false
+        },
+        {
+          "label": "Run unit/integration tests and record results",
+          "done": false
+        },
+        {
+          "label": "Publish sanitized report, architecture and limitations",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "ops-sentinel",
+      "name": "Ops Sentinel — AI Incident Commander",
+      "status": "Concept / implementation validation pending",
+      "next": "Validate current implementation, then prove read-only evidence collection and evaluation.",
+      "url": "../11-projects/ops-sentinel/README.md",
+      "checklist": [
+        {
+          "label": "Define incident scenarios and test fixtures",
+          "done": false
+        },
+        {
+          "label": "Implement scoped read-only evidence tools",
+          "done": false
+        },
+        {
+          "label": "Generate source-linked incident timeline",
+          "done": false
+        },
+        {
+          "label": "Add evaluation and unsafe-action rejection tests",
+          "done": false
+        },
+        {
+          "label": "Document approval boundary and demo",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "aws-emulator",
+      "name": "AWS Emulator Lab",
+      "status": "Local exercises run; evidence refresh needed",
+      "next": "Pin the emulator version and reproduce S3, DynamoDB and SQS tests.",
+      "url": "../11-projects/aws-emulator-lab/README.md",
+      "checklist": [
+        {
+          "label": "Record emulator image/version and local setup",
+          "done": false
+        },
+        {
+          "label": "Re-run S3 bucket/object smoke tests",
+          "done": false
+        },
+        {
+          "label": "Re-run DynamoDB create/query/update tests",
+          "done": false
+        },
+        {
+          "label": "Re-run SQS queue/send/receive tests",
+          "done": false
+        },
+        {
+          "label": "Document AWS API differences and cleanup",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "k8s-agents",
+      "name": "Kubernetes Agents",
+      "status": "Planned",
+      "next": "Start with a namespace-scoped, read-only diagnostic agent.",
+      "url": "../11-projects/kubernetes-agents/README.md",
+      "checklist": [
+        {
+          "label": "Define read-only use cases and threat model",
+          "done": false
+        },
+        {
+          "label": "Create namespace-scoped RBAC/service account",
+          "done": false
+        },
+        {
+          "label": "Implement typed Pod/Deployment/Event tools",
+          "done": false
+        },
+        {
+          "label": "Add prompt-injection and mutation-denial tests",
+          "done": false
+        },
+        {
+          "label": "Add audit logs, demo and limitations",
+          "done": false
+        }
+      ]
+    }
   ]
 }

@@ -9,6 +9,8 @@ Projects demonstrate implemented and tested engineering. Distinguish implemented
 
 For each project document problem, scope, architecture, data flow, threat model, permissions, setup, tests, evaluation, sanitized demo, costs, cleanup and limitations. Do not claim production readiness unless deployment, security, reliability and operational controls have been verified.
 
+See the [Project Readiness tracker](../PROJECT-READINESS.md) for current evidence gaps and a portfolio completion checklist.
+
 ## External project references
 
 - [DevOps Projects](https://github.com/NotHarshhaa/DevOps-Projects) — choose one guided project at a time and independently review its scripts and cloud footprint.

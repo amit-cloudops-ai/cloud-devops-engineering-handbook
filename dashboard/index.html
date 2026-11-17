@@ -36,13 +36,16 @@ button{cursor:pointer}button:hover{border-color:var(--accent)}.actions{display:f
     <div class="section-head"><h2>Skill progress</h2><div class="filters"><input id="search" type="search" placeholder="Find a skill…" aria-label="Search skills"><select id="filter"><option value="All">All statuses</option><option>Not started</option><option>Learning</option><option>Lab completed</option><option>Documented</option><option>Interview tested</option><option>Interview ready</option></select></div></div>
     <div id="tracks"></div>
   </section>
+  <section class="section"><div class="section-head"><h2>Portfolio project readiness</h2><span class="muted">Evidence checklist · browser-local</span></div><div id="projects" class="grid"></div></section>
   <p class="footer">Local edits are saved in this browser only. Use Export progress to download a JSON snapshot, then update dashboard/progress.json in GitHub to sync your baseline across devices. No cloud resources are created by this dashboard.</p>
 </main>
 <script>
 const DATA_URL = './progress.json';
 const ORDER = ['Not started','Learning','Lab completed','Documented','Interview tested','Interview ready'];
 let skills = [];
+let projects = [];
 let baseline = [];
+let baselineProjects = [];
 const $ = id => document.getElementById(id);
 function save(){localStorage.setItem('cloud-devops-progress-v1',JSON.stringify(skills));}
 function updateMetrics(){
@@ -65,23 +68,40 @@ function render(){
       items.map(s=>'<div class="skill"><div><div class="skill-name">'+s.name+' <span class="tag">'+s.priority+'</span></div></div>'+
       '<div class="next">'+s.next+'</div><select class="status" data-id="'+s.id+'" aria-label="Status for '+s.name+'">'+ORDER.map(o=>'<option '+(o===s.status?'selected':'')+'>'+o+'</option>').join('')+'</select></div>').join('')+'</div>';
   }).join('') || '<div class="panel empty">No skills match these filters.</div>';
+  renderProjects();
   document.querySelectorAll('.status').forEach(el=>el.addEventListener('change',e=>{
     const item=skills.find(s=>s.id===e.target.dataset.id);if(item){item.status=e.target.value;save();render();}
   }));
 }
+
+function renderProjects(){
+  $('projects').innerHTML=projects.map((p,index)=>{
+    const done=p.checklist.filter(x=>x.done).length, total=p.checklist.length;
+    const checks=p.checklist.map((x,i)=>'<label style="display:flex;gap:8px;align-items:flex-start;font-size:.82rem;margin:8px 0"><input type="checkbox" data-project="'+index+'" data-check="'+i+'" '+(x.done?'checked':'')+' style="margin-top:3px;accent-color:var(--accent)"><span>'+x.label+'</span></label>').join('');
+    return '<div class="panel"><div class="eyebrow">'+p.status+'</div><h3 style="margin:8px 0">'+p.name+'</h3><div class="muted">'+p.next+'</div><div class="bar"><span style="width:'+(total?Math.round(done/total*100):0)+'%"></span></div><div class="muted" style="margin:8px 0 10px">'+done+' / '+total+' evidence checks</div>'+checks+'<a href="'+p.url+'" target="_blank" rel="noopener" style="color:var(--blue);font-size:.82rem">Open project record ↗</a></div>';
+  }).join('');
+  document.querySelectorAll('[data-project]').forEach(el=>el.addEventListener('change',e=>{
+    projects[Number(e.target.dataset.project)].checklist[Number(e.target.dataset.check)].done=e.target.checked;
+    localStorage.setItem('cloud-devops-projects-v1',JSON.stringify(projects));renderProjects();
+  }));
+}
+
 async function init(){
   try{
     const response=await fetch(DATA_URL);if(!response.ok)throw new Error('Could not load progress.json');
     const data=await response.json();baseline=data.skills;
     const local=localStorage.getItem('cloud-devops-progress-v1');
     skills=local?JSON.parse(local):structuredClone(baseline);
+    baselineProjects=data.projects||[];
+    const localProjects=localStorage.getItem('cloud-devops-projects-v1');
+    projects=localProjects?JSON.parse(localProjects):structuredClone(baselineProjects);
   }catch(err){$('tracks').innerHTML='<div class="panel empty">Could not load progress.json. Open this dashboard through GitHub Pages or a local web server, not directly as a file.</div>';return;}
   render();
 }
 $('search').addEventListener('input',render);$('filter').addEventListener('change',render);
-$('reset').addEventListener('click',()=>{if(confirm('Discard local browser edits and reload the repository baseline?')){localStorage.removeItem('cloud-devops-progress-v1');skills=structuredClone(baseline);render();}});
+$('reset').addEventListener('click',()=>{if(confirm('Discard local browser edits and reload the repository baseline?')){localStorage.removeItem('cloud-devops-progress-v1');localStorage.removeItem('cloud-devops-projects-v1');skills=structuredClone(baseline);projects=structuredClone(baselineProjects);render();}});
 $('export').addEventListener('click',()=>{
-  const blob=new Blob([JSON.stringify({updated:new Date().toISOString().slice(0,10),skills},null,2)],{type:'application/json'});
+  const blob=new Blob([JSON.stringify({updated:new Date().toISOString().slice(0,10),skills,projects},null,2)],{type:'application/json'});
   const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='cloud-devops-progress-export.json';a.click();URL.revokeObjectURL(url);
 });
 init();
