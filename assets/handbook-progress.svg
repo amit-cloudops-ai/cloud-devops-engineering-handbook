@@ -7,7 +7,7 @@
 <line x1="28" y1="119" x2="972" y2="119" stroke="#263642"/>
 <circle cx="52" cy="146" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="146" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 146)"/><text x="52" y="150" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="144" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">1. Core systems and programming — P0</text>
-<text x="100" y="164" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="164" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 32 checklist items</text>
 <line x1="28" y1="177" x2="972" y2="177" stroke="#263642"/>
 <circle cx="52" cy="204" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="204" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 204)"/><text x="52" y="208" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="202" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Linux and operating systems</text>
@@ -27,7 +27,7 @@
 <line x1="28" y1="409" x2="972" y2="409" stroke="#263642"/>
 <circle cx="52" cy="436" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="436" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 436)"/><text x="52" y="440" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="434" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">2. Cloud engineering — AWS-first P0, other clouds P2</text>
-<text x="100" y="454" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="454" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 30 checklist items</text>
 <line x1="28" y1="467" x2="972" y2="467" stroke="#263642"/>
 <circle cx="52" cy="494" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="494" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 494)"/><text x="52" y="498" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="492" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  AWS identity, governance and security</text>
@@ -47,7 +47,7 @@
 <line x1="28" y1="699" x2="972" y2="699" stroke="#263642"/>
 <circle cx="52" cy="726" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="726" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 726)"/><text x="52" y="730" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="724" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">3. Containers, orchestration and delivery — P0/P1</text>
-<text x="100" y="744" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="744" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 30 checklist items</text>
 <line x1="28" y1="757" x2="972" y2="757" stroke="#263642"/>
 <circle cx="52" cy="784" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="784" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 784)"/><text x="52" y="788" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="782" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Docker</text>
@@ -67,7 +67,7 @@
 <line x1="28" y1="989" x2="972" y2="989" stroke="#263642"/>
 <circle cx="52" cy="1016" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1016" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1016)"/><text x="52" y="1020" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1014" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">4. Reliability, observability, security and FinOps — P1</text>
-<text x="100" y="1034" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="1034" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 23 checklist items</text>
 <line x1="28" y1="1047" x2="972" y2="1047" stroke="#263642"/>
 <circle cx="52" cy="1074" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1074" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1074)"/><text x="52" y="1078" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1072" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Observability and SRE</text>
@@ -83,7 +83,7 @@
 <line x1="28" y1="1221" x2="972" y2="1221" stroke="#263642"/>
 <circle cx="52" cy="1248" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1248" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1248)"/><text x="52" y="1252" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1246" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">5. AI, MLOps and AI infrastructure — P1 specialization</text>
-<text x="100" y="1266" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="1266" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 12 checklist items</text>
 <line x1="28" y1="1279" x2="972" y2="1279" stroke="#263642"/>
 <circle cx="52" cy="1306" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1306" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1306)"/><text x="52" y="1310" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1304" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
@@ -91,7 +91,7 @@
 <line x1="28" y1="1337" x2="972" y2="1337" stroke="#263642"/>
 <circle cx="52" cy="1364" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1364" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1364)"/><text x="52" y="1368" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1362" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">6. Agentic AI and autonomous operations — P1 specialization</text>
-<text x="100" y="1382" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="1382" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 12 checklist items</text>
 <line x1="28" y1="1395" x2="972" y2="1395" stroke="#263642"/>
 <circle cx="52" cy="1422" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1422" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1422)"/><text x="52" y="1426" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1420" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
@@ -99,7 +99,7 @@
 <line x1="28" y1="1453" x2="972" y2="1453" stroke="#263642"/>
 <circle cx="52" cy="1480" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1480" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1480)"/><text x="52" y="1484" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1478" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">7. System design and engineering breadth — P1/P2</text>
-<text x="100" y="1498" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="1498" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
 <line x1="28" y1="1511" x2="972" y2="1511" stroke="#263642"/>
 <circle cx="52" cy="1538" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1538" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1538)"/><text x="52" y="1542" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1536" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
@@ -111,7 +111,7 @@
 <line x1="28" y1="1627" x2="972" y2="1627" stroke="#263642"/>
 <circle cx="52" cy="1654" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1654" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1654)"/><text x="52" y="1658" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1652" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">AI Infrastructure, MLOps &amp; Agentic Systems Engineering</text>
-<text x="100" y="1672" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<text x="100" y="1672" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 58 checklist items</text>
 <line x1="28" y1="1685" x2="972" y2="1685" stroke="#263642"/>
 <circle cx="52" cy="1712" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1712" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1712)"/><text x="52" y="1716" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
 <text x="100" y="1710" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  GPU fundamentals</text>
