@@ -38,7 +38,6 @@ L=["<!-- PREP-PROGRESS:START -->",'<p align="center">','<img src="assets/prepara
 "","### Preserved baseline","","| Readiness stage | Broad competencies |","|---|---:|"]+[f"| {s} | {counts[s]} |" for s in STAGES]
 L += ["",f"**Project evidence:** {pd}/{pt} checks complete across {len(projects)} projects.","","### Detailed handbook map","","Every handbook section and topic has its own circular progress ring in the map below. Each individual checklist item has a separate readiness status. All newly split items begin as **Not assessed**; this is different from Not started. The original 9% baseline is preserved.",
 L += ["", '<img src="assets/handbook-progress.svg" alt="Circular progress rings for each handbook section and topic" width="100%">', "", "<details>", "<summary>Expand topic breakdowns and every individual competency</summary>", ""]
-"<details>","<summary>Expand topic breakdowns and every individual competency</summary>",""]
 for sec in DATA["structure"]:
     sr=[x for x in items if x["section_id"]==sec["id"]]
     L += ["#### "+sec["name"],"","| Topic | Progress | Assessed / total |","|---|---:|---:|"]
