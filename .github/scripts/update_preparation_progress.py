@@ -31,7 +31,7 @@ for idx,(kind,name,(pct,assessed,total)) in enumerate(entries):
     svg.append(f'<text x="100" y="{y+16}" fill="#f2f7f9" font-family="Arial" font-size="{14 if kind=="SECTION" else 13}" font-weight="{700 if kind=="SECTION" else 400}">{esc(name)}</text>')
     svg.append(f'<text x="100" y="{y+36}" fill="#9fb3c0" font-family="Arial" font-size="11">{assessed} assessed / {total} checklist items</text>')
     svg.append(f'<line x1="28" y1="{y+49}" x2="972" y2="{y+49}" stroke="#263642"/>')
-svg.append("</svg>"); SVG.parent.mkdir(parents=True,exist_ok=True); SVG.write_text("\\n".join(svg),encoding="utf-8")
+svg.append("</svg>"); SVG.parent.mkdir(parents=True,exist_ok=True); SVG.write_text("\n".join(svg),encoding="utf-8")
 counts={s:sum(x["status"]==s for x in skills) for s in STAGES}
 projects=DATA.get("projects",[]); pd=sum(bool(c.get("done")) for p in projects for c in p.get("checklist",[])); pt=sum(len(p.get("checklist",[])) for p in projects)
 L=["<!-- PREP-PROGRESS:START -->",'<p align="center">','<img src="assets/preparation-progress.svg" width="145" alt="Overall baseline progress">','</p>',f'<p align="center"><strong>{legacy_pct}% overall baseline</strong> · {legacy_points}/{legacy_max} weighted points · {len(skills)} original broad competencies</p>',
@@ -50,5 +50,5 @@ for sec in DATA["structure"]:
 L += ["</details>","","**Scoring:** Each assessed item receives 0–5 points across the six readiness stages. Topic and section percentages are weighted averages of assessed child items. Unassessed items are excluded until evaluated and never counted as completed.",
 "","Edit progress.json to update any individual status or project evidence check. GitHub Actions regenerates the README map and SVG on push.","<!-- PREP-PROGRESS:END -->"]
 text=README.read_text(encoding="utf-8"); start="<!-- PREP-PROGRESS:START -->"; end="<!-- PREP-PROGRESS:END -->"
-before,rest=text.split(start,1); _,after=rest.split(end,1); README.write_text(before+"\\n".join(L)+after,encoding="utf-8")
+before,rest=text.split(start,1); _,after=rest.split(end,1); README.write_text(before+"\n".join(L)+after,encoding="utf-8")
 print("Granular handbook progress regenerated.")
