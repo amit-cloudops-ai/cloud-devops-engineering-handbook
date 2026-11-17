@@ -1,11 +1,30 @@
 # Cloud & DevOps Engineering Handbook
 
-A practical, evidence-driven handbook for **Cloud Engineering, DevOps, Platform Engineering, Site Reliability Engineering (SRE), and Agentic AI Operations**.
+A practical, evidence-driven handbook for **Cloud Engineering, DevOps, Platform Engineering, Site Reliability Engineering (SRE), AI Infrastructure, MLOps and Agentic AI Operations**.
 
-**Primary positioning:** AI-Agentic DevOps / Cloud Engineer  
-**Primary job market:** Pune, India · **Secondary:** Bengaluru, India
+**Primary positioning:** Cloud / DevOps Engineer with an AI infrastructure and agentic operations specialization.  
+**Primary job market:** Pune, India · **Secondary:** Bengaluru, India.
 
-This is a public learning system and engineering portfolio. It turns study into demonstrable capability through original notes, practical labs, troubleshooting records, architecture decisions, projects and interview practice.
+This is a public learning system and engineering portfolio. It turns preparation into demonstrable capability through original notes, practical labs, troubleshooting records, architecture decisions, projects and interview practice.
+
+## Start here
+
+<details>
+<summary><strong>Preparation dashboard</strong> — track competency progress</summary>
+
+Open the [interactive progress dashboard](dashboard/index.html). It tracks skill readiness by evidence, supports browser-local edits and exports a JSON snapshot. Browser edits do not automatically sync to GitHub; update dashboard/progress.json to persist a new baseline.
+</details>
+
+| Start point | What it contains |
+|---|---|
+| [Skill & Tool Matrix](SKILL-MATRIX.md) | Full role-based inventory across Cloud, DevOps, SRE, Platform, AI infrastructure and agentic engineering |
+| [Interview Question Bank](INTERVIEW-QUESTION-BANK.md) | 210 original practice questions across 13 engineering domains |
+| [Scenario Playbook](SCENARIO-PLAYBOOK.md) | 100 production troubleshooting, design and incident scenarios |
+| [AI Infrastructure Curriculum](AI-INFRASTRUCTURE.md) | GPU, inference, RAG, MLOps, LLM platforms, MCP, agents and AIOps |
+| [Roadmap](ROADMAP.md) | Accelerated, competency-based progression—not a one-week-per-topic schedule |
+| [Progress Tracker](PROGRESS.md) | Evidence-backed written progress log |
+| [Interview Tracker](INTERVIEW-TRACKER.md) | Company, topic and mock-interview tracking |
+| [Resource Index](RESOURCE-INDEX.md) | External interview repositories, labs and engineering references |
 
 ## Handbook map
 
@@ -29,9 +48,6 @@ This is a public learning system and engineering portfolio. It turns study into 
 | [15 — Practical labs](15-practical-labs/README.md) | Reproducible exercises and validation evidence |
 | [16 — Engineering case studies](16-engineering-case-studies/README.md) | Production incidents and architecture analysis |
 | [17 — Interview intelligence](17-interview-intelligence/README.md) | Question practice, company reports and mock tracking |
-| [Resource index](RESOURCE-INDEX.md) | Curated external repositories and learning platforms |
-| [Lab index](15-practical-labs/README.md) | Prioritized practical backlog |
-| [Interview tracker](INTERVIEW-TRACKER.md) | Topic and mock-interview tracking |
 | [Templates](templates/README.md) | Consistent formats for topics, labs and interviews |
 
 ## Target role families
@@ -40,18 +56,21 @@ This is a public learning system and engineering portfolio. It turns study into 
 - Cloud Engineer / Cloud Operations Engineer
 - Platform Engineer
 - Site Reliability Engineer (SRE)
-- Adjacent entry-level roles: Cloud Support, Infrastructure Support, Build & Release, Technical Operations
+- Cloud Support / Infrastructure Support / Build & Release
+- AI Infrastructure Engineer / LLM Platform Engineer
+- MLOps Engineer
+- Agentic AI / AIOps Engineer
 
-Agentic AI is a specialization layered on top of strong infrastructure fundamentals. The goal is not to claim broad AI expertise; it is to demonstrate safe, useful AI-assisted operations.
+Agentic AI is a specialization layered on top of sound infrastructure fundamentals. The goal is to demonstrate safe, useful AI-assisted operations—not to claim expertise in every framework.
 
 ## How to use this handbook
 
-1. Learn the concept and explain it in your own words.
-2. Read official documentation and record useful supplementary sources.
+1. Pick one P0 skill from the skill matrix.
+2. Learn the mechanism from official documentation and explain it in your own words.
 3. Complete a reproducible practical lab.
-4. Record one or more failure modes and how you diagnose them.
-5. Answer interview questions without looking at notes.
-6. Update [PROGRESS.md](PROGRESS.md) only when evidence supports the status.
+4. Break a safe test environment and diagnose the failure.
+5. Answer related questions without looking at notes.
+6. Update progress only when evidence supports the status.
 
 ### Topic readiness states
 
@@ -75,7 +94,7 @@ Agents default to read-only investigation. Any operation that changes infrastruc
 
 ## Current status
 
-The handbook is an evolving scaffold with curated resource, lab, case-study and interview indexes. A listed directory or external resource does not mean its subject is complete or mastered. The roadmap and progress tracker are the source of truth.
+The handbook now includes a role-based skill inventory, original question and scenario banks, an AI infrastructure curriculum and an interactive progress dashboard. The learning material is a curriculum, not proof of mastery. Use the progress tracker and project evidence as the source of truth.
 
 ## License
 
