@@ -44,8 +44,8 @@ for sec in DATA["structure"]:
     L += ["#### "+sec["name"],"","| Topic | Progress | Assessed / total |","|---|---:|---:|"]
     for top in sec["topics"]:
         tr=[x for x in sr if x["topic_id"]==top["id"]]; pct,assessed,total=stats(tr); label="Not assessed" if pct is None else str(pct)+"%"
-        L.append(f"| **{top['name']}** | {label} | {assessed}/{total} |")
-        for item in tr: L.append(f"| ↳ {item['name']} | {item['status']} | — |")
+        L.append("| **{}** | {} | {}/{} |".format(top["name"], label, assessed, total))
+        for item in tr: L.append("| ↳ {} | {} | — |".format(item["name"], item["status"]))
     L.append("")
 L += ["</details>","","**Scoring:** Each assessed item receives 0–5 points across the six readiness stages. Topic and section percentages are weighted averages of assessed child items. Unassessed items are excluded until evaluated and never counted as completed.",
 "","Edit progress.json to update any individual status or project evidence check. GitHub Actions regenerates the README map and SVG on push.","<!-- PREP-PROGRESS:END -->"]
