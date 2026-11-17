@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="2216" viewBox="0 0 1000 2216">
+<rect width="100%" height="100%" rx="18" fill="#0d1720"/>
+<text x="28" y="38" fill="#f2f7f9" font-family="Arial" font-size="20" font-weight="700">Handbook progress by section and topic</text>
+<circle cx="52" cy="88" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="88" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 88)"/><text x="52" y="92" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="86" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">Role families and expected emphasis</text>
+<text x="100" y="106" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="119" x2="972" y2="119" stroke="#263642"/>
+<circle cx="52" cy="146" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="146" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 146)"/><text x="52" y="150" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="144" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">1. Core systems and programming — P0</text>
+<text x="100" y="164" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="177" x2="972" y2="177" stroke="#263642"/>
+<circle cx="52" cy="204" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="204" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 204)"/><text x="52" y="208" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="202" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Linux and operating systems</text>
+<text x="100" y="222" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 10 checklist items</text>
+<line x1="28" y1="235" x2="972" y2="235" stroke="#263642"/>
+<circle cx="52" cy="262" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="262" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 262)"/><text x="52" y="266" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="260" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Networking</text>
+<text x="100" y="280" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 10 checklist items</text>
+<line x1="28" y1="293" x2="972" y2="293" stroke="#263642"/>
+<circle cx="52" cy="320" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="320" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 320)"/><text x="52" y="324" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="318" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Programming and automation</text>
+<text x="100" y="338" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 7 checklist items</text>
+<line x1="28" y1="351" x2="972" y2="351" stroke="#263642"/>
+<circle cx="52" cy="378" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="378" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 378)"/><text x="52" y="382" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="376" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Git and collaboration</text>
+<text x="100" y="396" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 5 checklist items</text>
+<line x1="28" y1="409" x2="972" y2="409" stroke="#263642"/>
+<circle cx="52" cy="436" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="436" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 436)"/><text x="52" y="440" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="434" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">2. Cloud engineering — AWS-first P0, other clouds P2</text>
+<text x="100" y="454" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="467" x2="972" y2="467" stroke="#263642"/>
+<circle cx="52" cy="494" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="494" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 494)"/><text x="52" y="498" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="492" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  AWS identity, governance and security</text>
+<text x="100" y="512" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="525" x2="972" y2="525" stroke="#263642"/>
+<circle cx="52" cy="552" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="552" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 552)"/><text x="52" y="556" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="550" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  AWS networking</text>
+<text x="100" y="570" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="583" x2="972" y2="583" stroke="#263642"/>
+<circle cx="52" cy="610" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="610" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 610)"/><text x="52" y="614" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="608" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Compute, storage and data</text>
+<text x="100" y="628" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="641" x2="972" y2="641" stroke="#263642"/>
+<circle cx="52" cy="668" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="668" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 668)"/><text x="52" y="672" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="666" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Operations and governance</text>
+<text x="100" y="686" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 6 checklist items</text>
+<line x1="28" y1="699" x2="972" y2="699" stroke="#263642"/>
+<circle cx="52" cy="726" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="726" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 726)"/><text x="52" y="730" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="724" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">3. Containers, orchestration and delivery — P0/P1</text>
+<text x="100" y="744" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="757" x2="972" y2="757" stroke="#263642"/>
+<circle cx="52" cy="784" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="784" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 784)"/><text x="52" y="788" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="782" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Docker</text>
+<text x="100" y="802" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 6 checklist items</text>
+<line x1="28" y1="815" x2="972" y2="815" stroke="#263642"/>
+<circle cx="52" cy="842" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="842" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 842)"/><text x="52" y="846" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="840" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Kubernetes</text>
+<text x="100" y="860" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 10 checklist items</text>
+<line x1="28" y1="873" x2="972" y2="873" stroke="#263642"/>
+<circle cx="52" cy="900" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="900" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 900)"/><text x="52" y="904" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="898" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  CI/CD and GitOps</text>
+<text x="100" y="918" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 7 checklist items</text>
+<line x1="28" y1="931" x2="972" y2="931" stroke="#263642"/>
+<circle cx="52" cy="958" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="958" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 958)"/><text x="52" y="962" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="956" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Infrastructure as Code</text>
+<text x="100" y="976" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 7 checklist items</text>
+<line x1="28" y1="989" x2="972" y2="989" stroke="#263642"/>
+<circle cx="52" cy="1016" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1016" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1016)"/><text x="52" y="1020" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1014" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">4. Reliability, observability, security and FinOps — P1</text>
+<text x="100" y="1034" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1047" x2="972" y2="1047" stroke="#263642"/>
+<circle cx="52" cy="1074" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1074" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1074)"/><text x="52" y="1078" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1072" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Observability and SRE</text>
+<text x="100" y="1092" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 10 checklist items</text>
+<line x1="28" y1="1105" x2="972" y2="1105" stroke="#263642"/>
+<circle cx="52" cy="1132" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1132" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1132)"/><text x="52" y="1136" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1130" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Security / DevSecOps</text>
+<text x="100" y="1150" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="1163" x2="972" y2="1163" stroke="#263642"/>
+<circle cx="52" cy="1190" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1190" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1190)"/><text x="52" y="1194" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1188" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  FinOps</text>
+<text x="100" y="1208" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 5 checklist items</text>
+<line x1="28" y1="1221" x2="972" y2="1221" stroke="#263642"/>
+<circle cx="52" cy="1248" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1248" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1248)"/><text x="52" y="1252" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1246" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">5. AI, MLOps and AI infrastructure — P1 specialization</text>
+<text x="100" y="1266" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1279" x2="972" y2="1279" stroke="#263642"/>
+<circle cx="52" cy="1306" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1306" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1306)"/><text x="52" y="1310" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1304" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
+<text x="100" y="1324" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 12 checklist items</text>
+<line x1="28" y1="1337" x2="972" y2="1337" stroke="#263642"/>
+<circle cx="52" cy="1364" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1364" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1364)"/><text x="52" y="1368" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1362" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">6. Agentic AI and autonomous operations — P1 specialization</text>
+<text x="100" y="1382" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1395" x2="972" y2="1395" stroke="#263642"/>
+<circle cx="52" cy="1422" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1422" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1422)"/><text x="52" y="1426" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1420" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
+<text x="100" y="1440" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 12 checklist items</text>
+<line x1="28" y1="1453" x2="972" y2="1453" stroke="#263642"/>
+<circle cx="52" cy="1480" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1480" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1480)"/><text x="52" y="1484" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1478" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">7. System design and engineering breadth — P1/P2</text>
+<text x="100" y="1498" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1511" x2="972" y2="1511" stroke="#263642"/>
+<circle cx="52" cy="1538" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1538" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1538)"/><text x="52" y="1542" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1536" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core competencies</text>
+<text x="100" y="1556" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="1569" x2="972" y2="1569" stroke="#263642"/>
+<circle cx="52" cy="1596" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1596" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1596)"/><text x="52" y="1600" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1594" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">8. Evidence standard</text>
+<text x="100" y="1614" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1627" x2="972" y2="1627" stroke="#263642"/>
+<circle cx="52" cy="1654" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1654" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1654)"/><text x="52" y="1658" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1652" fill="#f2f7f9" font-family="Arial" font-size="14" font-weight="700">AI Infrastructure, MLOps &amp; Agentic Systems Engineering</text>
+<text x="100" y="1672" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 0 checklist items</text>
+<line x1="28" y1="1685" x2="972" y2="1685" stroke="#263642"/>
+<circle cx="52" cy="1712" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1712" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1712)"/><text x="52" y="1716" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1710" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  GPU fundamentals</text>
+<text x="100" y="1730" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="1743" x2="972" y2="1743" stroke="#263642"/>
+<circle cx="52" cy="1770" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1770" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1770)"/><text x="52" y="1774" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1768" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Operations</text>
+<text x="100" y="1788" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 5 checklist items</text>
+<line x1="28" y1="1801" x2="972" y2="1801" stroke="#263642"/>
+<circle cx="52" cy="1828" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1828" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1828)"/><text x="52" y="1832" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1826" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Core concepts</text>
+<text x="100" y="1846" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="1859" x2="972" y2="1859" stroke="#263642"/>
+<circle cx="52" cy="1886" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1886" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1886)"/><text x="52" y="1890" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1884" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Request and ingestion path</text>
+<text x="100" y="1904" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 7 checklist items</text>
+<line x1="28" y1="1917" x2="972" y2="1917" stroke="#263642"/>
+<circle cx="52" cy="1944" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="1944" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 1944)"/><text x="52" y="1948" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="1942" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Evaluation and operations</text>
+<text x="100" y="1962" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 6 checklist items</text>
+<line x1="28" y1="1975" x2="972" y2="1975" stroke="#263642"/>
+<circle cx="52" cy="2002" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="2002" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 2002)"/><text x="52" y="2006" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="2000" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Tools</text>
+<text x="100" y="2020" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 5 checklist items</text>
+<line x1="28" y1="2033" x2="972" y2="2033" stroke="#263642"/>
+<circle cx="52" cy="2060" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="2060" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 2060)"/><text x="52" y="2064" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="2058" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Architecture</text>
+<text x="100" y="2078" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 6 checklist items</text>
+<line x1="28" y1="2091" x2="972" y2="2091" stroke="#263642"/>
+<circle cx="52" cy="2118" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="2118" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 2118)"/><text x="52" y="2122" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="2116" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Frameworks and protocols</text>
+<text x="100" y="2136" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 5 checklist items</text>
+<line x1="28" y1="2149" x2="972" y2="2149" stroke="#263642"/>
+<circle cx="52" cy="2176" r="23" fill="#111b24" stroke="#344653" stroke-width="6"/><circle cx="52" cy="2176" r="23" fill="none" stroke="#45d6ad" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.00 144.51" transform="rotate(-90 52 2176)"/><text x="52" y="2180" text-anchor="middle" font-family="Arial" font-size="11" fill="#f2f7f9">—</text>
+<text x="100" y="2174" fill="#f2f7f9" font-family="Arial" font-size="13" font-weight="400">  Production concerns</text>
+<text x="100" y="2194" fill="#9fb3c0" font-family="Arial" font-size="11">0 assessed / 8 checklist items</text>
+<line x1="28" y1="2207" x2="972" y2="2207" stroke="#263642"/>
+</svg>

@@ -367,5 +367,2283 @@
         }
       ]
     }
-  ]
+  ],
+  "detailed_competencies": [
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-filesystem",
+      "name": "Filesystem hierarchy, mounts, inodes, symlinks, permissions, ownership, ACLs, umask",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-users-grou",
+      "name": "Users, groups, sudo, PAM basics, SSH keys and hardening",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-processes-",
+      "name": "Processes, threads, signals, jobs, priorities, systemd, services and timers",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-cpu-load-m",
+      "name": "CPU load, memory, swap, OOM killer, disk I/O, filesystem capacity",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-logs-journ",
+      "name": "Logs: journald, syslog, log rotation, application logs",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-package-ma",
+      "name": "Package managers, repositories, kernel basics, boot sequence",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-shell-envi",
+      "name": "Shell environment, pipes, redirection, grep, awk, sed, find, xargs, jq",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-troublesho",
+      "name": "Troubleshooting with ps, top/htop, free, vmstat, iostat, df, du, lsof, ss, journalctl, dmesg, strace",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-linux-netw",
+      "name": "Linux networking: interfaces, routes, firewall, DNS resolver",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-linux-and-operating-systems-backup-res",
+      "name": "Backup, restore, cron, systemd timers, process supervision",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "linux-and-operating-systems",
+      "topic": "Linux and operating systems"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-osi-and-tcp-ip-models-encap",
+      "name": "OSI and TCP/IP models; encapsulation and MTU",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-ipv4-ipv6-cidr-subnetting-p",
+      "name": "IPv4/IPv6, CIDR, subnetting, private/public ranges, route tables",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-arp-icmp-tcp-handshake-tear",
+      "name": "ARP, ICMP, TCP handshake/teardown, UDP, ports, ephemeral ports",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-dns-records-recursive-resol",
+      "name": "DNS records, recursive resolution, TTL, caching, split-horizon DNS",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-http-methods-status-codes-h",
+      "name": "HTTP methods, status codes, headers, cookies, keep-alive, HTTP/2 and HTTP/3 concepts",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-tls-handshake-certificates-",
+      "name": "TLS handshake, certificates, CA chain, SNI, mTLS",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-nat-snat-dnat-proxies-rever",
+      "name": "NAT, SNAT/DNAT, proxies, reverse proxies, load balancers",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-firewalls-security-groups-n",
+      "name": "Firewalls, security groups, NACLs, stateful/stateless filtering",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-vpn-peering-transit-routing",
+      "name": "VPN, peering, transit routing, private endpoints, CDN",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-networking-packet-path-troubleshooting",
+      "name": "Packet-path troubleshooting, latency, packet loss, retransmission",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "networking",
+      "topic": "Networking"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-bash-quotin",
+      "name": "Bash: quoting, exit codes, traps, functions, arrays, strict mode, idempotence",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-python-data",
+      "name": "Python: data structures, exceptions, modules, virtual environments, typing, logging",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-files-json-",
+      "name": "Files, JSON/YAML, CSV, HTTP APIs, pagination, retries, timeouts",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-process-exe",
+      "name": "Process execution safely, subprocess, environment variables",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-unit-tests-",
+      "name": "Unit tests, mocks, fixtures, linting, formatting and dependency pinning",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-api-design-",
+      "name": "API design basics, REST, authentication, status codes, schema validation",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-programming-and-automation-concurrency",
+      "name": "Concurrency basics, async I/O and thread/process distinctions",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "programming-and-automation",
+      "topic": "Programming and automation"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-git-and-collaboration-working-tree-ind",
+      "name": "Working tree, index, commits, branches, tags, remotes, refs",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "git-and-collaboration",
+      "topic": "Git and collaboration"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-git-and-collaboration-merge-vs-rebase-",
+      "name": "Merge vs rebase, cherry-pick, revert, reset, reflog",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "git-and-collaboration",
+      "topic": "Git and collaboration"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-git-and-collaboration-conflict-resolut",
+      "name": "Conflict resolution, interactive rebase, bisect",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "git-and-collaboration",
+      "topic": "Git and collaboration"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-git-and-collaboration-pr-reviews-branc",
+      "name": "PR reviews, branch protection, CODEOWNERS, conventional commit practices",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "git-and-collaboration",
+      "topic": "Git and collaboration"
+    },
+    {
+      "id": "1-core-systems-and-programming-p0-git-and-collaboration-github-actions-i",
+      "name": "GitHub Actions, issues, releases, artifacts and permissions",
+      "status": "Not assessed",
+      "section_id": "1-core-systems-and-programming-p0",
+      "section": "1. Core systems and programming — P0",
+      "topic_id": "git-and-collaboration",
+      "topic": "Git and collaboration"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance",
+      "name": "IAM users, roles, policies, trust policies, permission boundaries, session policies",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-2",
+      "name": "STS, AssumeRole, temporary credentials, federation and OIDC",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-3",
+      "name": "Resource policies, identity policies, explicit deny and policy evaluation",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-4",
+      "name": "Organizations, SCPs, account boundaries, Control Tower concepts",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-5",
+      "name": "KMS, envelope encryption, key policies, rotation",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-6",
+      "name": "Secrets Manager, SSM Parameter Store, certificate management",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-7",
+      "name": "CloudTrail, Config, GuardDuty, Security Hub, Inspector, WAF and Shield concepts",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-8",
+      "name": "Least privilege, access reviews, break-glass and audit evidence",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-identity-governance-and-security",
+      "topic": "AWS identity, governance and security"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-cidr",
+      "name": "VPC, CIDR, public/private subnets, route tables",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-internet",
+      "name": "Internet Gateway, NAT Gateway, egress-only gateway",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-security",
+      "name": "Security Groups vs Network ACLs",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-endp",
+      "name": "VPC endpoints: gateway and interface; PrivateLink",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-peer",
+      "name": "VPC peering, Transit Gateway, VPN, Direct Connect concepts",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-route-53",
+      "name": "Route 53 public/private hosted zones, health checks, routing policies",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-alb-nlb-",
+      "name": "ALB, NLB, GWLB, target groups, health checks",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-cloudfro",
+      "name": "CloudFront, origins, caching, TLS and WAF integration",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "aws-networking",
+      "topic": "AWS networking"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat",
+      "name": "EC2 types, AMIs, user data, metadata, placement, EBS and snapshots",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-2",
+      "name": "Auto Scaling Groups, launch templates, scaling policies",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-3",
+      "name": "S3 storage classes, versioning, lifecycle, replication, encryption, bucket policies",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-4",
+      "name": "EFS and FSx concepts; backup and restore",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-5",
+      "name": "RDS, Multi-AZ, read replicas, backups, parameter groups",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-6",
+      "name": "DynamoDB partition keys, indexes, capacity modes, TTL, streams",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-7",
+      "name": "SQS, SNS, EventBridge, Kinesis concepts and delivery semantics",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-8",
+      "name": "Lambda, API Gateway, Step Functions and event-driven design",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "compute-storage-and-data",
+      "topic": "Compute, storage and data"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan",
+      "name": "CloudWatch metrics, logs, alarms, dashboards, Logs Insights",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-2",
+      "name": "CloudTrail event history and audit trails",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-3",
+      "name": "AWS Backup, restore testing, RTO/RPO",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-4",
+      "name": "Budgets, Cost Explorer, CUR, tagging, Savings Plans and Reserved Instances",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-5",
+      "name": "Well-Architected pillars and trade-offs",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-6",
+      "name": "Multi-account strategy, regions, availability zones and quotas",
+      "status": "Not assessed",
+      "section_id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "section": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topic_id": "operations-and-governance",
+      "topic": "Operations and governance"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-images-layers-regis",
+      "name": "Images, layers, registries, tags, digests and content trust concepts",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-dockerfile-build-co",
+      "name": "Dockerfile, build context, cache, multi-stage builds, non-root user",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-volumes-bind-mounts",
+      "name": "Volumes, bind mounts, networks, DNS, port publishing",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-compose-services-he",
+      "name": "Compose services, health checks, depends_on semantics and profiles",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-resource-limits-log",
+      "name": "Resource limits, logs, inspect, exec, events and pruning",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-docker-image-scanning-sbom",
+      "name": "Image scanning, SBOM, signing, minimal base images and secrets at build time",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "docker",
+      "topic": "Docker"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-control-plane-a",
+      "name": "Control plane, API server, etcd, scheduler, controller manager, kubelet, kube-proxy",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-pods-deployment",
+      "name": "Pods, Deployments, ReplicaSets, StatefulSets, DaemonSets, Jobs, CronJobs",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-services-endpoi",
+      "name": "Services, EndpointSlices, Ingress, Gateway API, DNS and network policies",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-configmaps-secr",
+      "name": "ConfigMaps, Secrets, service accounts, RBAC and admission controls",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-requests-limits",
+      "name": "Requests, limits, QoS, HPA, VPA concepts, PDB and scheduling constraints",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-liveness-readin",
+      "name": "Liveness, readiness, startup probes; rollout, rollback and disruption",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-persistentvolum",
+      "name": "PersistentVolumes, PVCs, StorageClasses, CSI",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-namespaces-quot",
+      "name": "Namespaces, quotas, LimitRanges, affinity, taints and tolerations",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-cni-coredns-kub",
+      "name": "CNI, CoreDNS, kube-proxy/eBPF concepts, cluster networking",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-kubernetes-troubleshooting",
+      "name": "Troubleshooting Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, DNS and service routing",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "kubernetes",
+      "topic": "Kubernetes"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-pipeline-",
+      "name": "Pipeline stages, runners, artifacts, caches, environments and approvals",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-build-tes",
+      "name": "Build/test/package/scan/sign/publish/deploy/verify/rollback",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-secrets-o",
+      "name": "Secrets, OIDC federation, scoped tokens, runner isolation",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-reproduci",
+      "name": "Reproducible builds, immutable artifacts, provenance and SBOM",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-deploymen",
+      "name": "Deployment strategies: rolling, blue-green, canary, feature flags",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-gitops-re",
+      "name": "GitOps reconciliation, drift, promotion and rollback",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-pipeline--2",
+      "name": "Pipeline security, dependency pinning and supply-chain controls",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "ci-cd-and-gitops",
+      "topic": "CI/CD and GitOps"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-ter",
+      "name": "Terraform providers, resources, data sources, variables, outputs, locals",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-sta",
+      "name": "State, remote backends, locking, import, moved blocks, state recovery",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-mod",
+      "name": "Modules, version constraints, provider locks and environment separation",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-pla",
+      "name": "Plan/apply/destroy lifecycle, drift, dependency graph and lifecycle meta-arguments",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-sec",
+      "name": "Secrets and sensitive values; state encryption and access controls",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-pol",
+      "name": "Policy-as-code, validation and CI plan review",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-con",
+      "name": "Configuration management and immutable infrastructure concepts",
+      "status": "Not assessed",
+      "section_id": "3-containers-orchestration-and-delivery-p0-p1",
+      "section": "3. Containers, orchestration and delivery — P0/P1",
+      "topic_id": "infrastructure-as-code",
+      "topic": "Infrastructure as Code"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre",
+      "name": "Metrics, logs, traces, events and correlation IDs",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-2",
+      "name": "RED and USE methods; cardinality and sampling",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-3",
+      "name": "Prometheus, PromQL, exporters, Alertmanager",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-4",
+      "name": "Grafana dashboards, alert routing and runbooks",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-5",
+      "name": "OpenTelemetry SDK, Collector, OTLP and context propagation",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-6",
+      "name": "SLIs, SLOs, error budgets, burn-rate alerts and availability math",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-7",
+      "name": "Incident command, severity, communication, timeline and postmortem",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-8",
+      "name": "Capacity planning, load testing, saturation and graceful degradation",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-9",
+      "name": "Backups, restore drills, RTO, RPO, HA and disaster recovery",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-observability-and-sre-10",
+      "name": "Chaos engineering and resilience testing",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "observability-and-sre",
+      "topic": "Observability and SRE"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-th",
+      "name": "Threat modeling, attack surface and trust boundaries",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-ia",
+      "name": "IAM least privilege, RBAC, network segmentation and workload identity",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-se",
+      "name": "Secret management, rotation and secret scanning",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-sa",
+      "name": "SAST, DAST, SCA, container/IaC scanning",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-sb",
+      "name": "SBOM, signing, provenance and dependency pinning",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-ku",
+      "name": "Kubernetes security contexts, Pod Security Standards and admission policy",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-en",
+      "name": "Encryption in transit/at rest, key management, audit logging",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-security-devsecops-vu",
+      "name": "Vulnerability triage, patching, incident response and evidence retention",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "security-devsecops",
+      "topic": "Security / DevSecOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-finops-cost-allocatio",
+      "name": "Cost allocation, tags/labels, budgets, forecasts and anomaly detection",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "finops",
+      "topic": "FinOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-finops-compute-storag",
+      "name": "Compute, storage, network egress, logs and idle resource cost drivers",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "finops",
+      "topic": "FinOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-finops-rightsizing-au",
+      "name": "Rightsizing, autoscaling, spot/preemptible trade-offs",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "finops",
+      "topic": "FinOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-finops-unit-economics",
+      "name": "Unit economics, cost per request, cost per workload and showback",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "finops",
+      "topic": "FinOps"
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1-finops-gpu-utilizatio",
+      "name": "GPU utilization, model token cost and inference cost per request",
+      "status": "Not assessed",
+      "section_id": "4-reliability-observability-security-and-finops-p1",
+      "section": "4. Reliability, observability, security and FinOps — P1",
+      "topic_id": "finops",
+      "topic": "FinOps"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf",
+      "name": "Python for services, data pipelines, async APIs and packaging",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-2",
+      "name": "ML lifecycle: datasets, training, validation, model registry and deployment",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-3",
+      "name": "LLM basics: tokens, context windows, embeddings, attention, quantization",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-4",
+      "name": "Inference: batching, streaming, KV cache, concurrency, latency and throughput",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-5",
+      "name": "GPU fundamentals: VRAM, CUDA concepts, drivers, utilization and scheduling",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-6",
+      "name": "Model serving: vLLM, Hugging Face TGI, Triton, Ollama (compare use cases)",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-7",
+      "name": "RAG: ingestion, chunking, embeddings, retrieval, reranking and citations",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-8",
+      "name": "Vector databases: pgvector, Qdrant, Milvus, Weaviate concepts",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-9",
+      "name": "AI gateways, model routing, rate limits, caching, quotas and provider failover",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-10",
+      "name": "MLOps: MLflow, Kubeflow, KServe, feature/data versioning and model monitoring",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-11",
+      "name": "LLM evaluation, prompt/version tests, quality, latency and cost metrics",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-12",
+      "name": "AI security: prompt injection, data leakage, model supply chain and tool abuse",
+      "status": "Not assessed",
+      "section_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "section": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topic_id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an",
+      "name": "Agent loop, state, planning, tool selection and termination",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-2",
+      "name": "Tool contracts, JSON schema, validation, timeouts, retries and idempotency",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-3",
+      "name": "MCP architecture: host, client, server, tools, resources and prompts",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-4",
+      "name": "Workflow orchestration vs autonomous agents; deterministic boundaries",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-5",
+      "name": "LangGraph concepts: state graph, nodes, edges, checkpoints and human interrupts",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-6",
+      "name": "Multi-agent patterns, delegation, shared state and coordination failure",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-7",
+      "name": "Memory, retrieval, context management and data retention",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-8",
+      "name": "Agent tracing, evaluations, regression sets and adversarial tests",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-9",
+      "name": "Guardrails: read-only defaults, allowlists, approvals, budgets and kill switches",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-10",
+      "name": "Audit logs, provenance, identity, tenant isolation and secret boundaries",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-11",
+      "name": "AIOps: alert triage, log summarization, incident correlation and remediation proposals",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-12",
+      "name": "Safe remediation: dry run, blast-radius estimate, approval, execution and verification",
+      "status": "Not assessed",
+      "section_id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "section": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topic_id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine",
+      "name": "Load balancing, caching, CDN, database scaling and queue-based decoupling",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-2",
+      "name": "Consistency, replication, partitioning, CAP trade-offs and failure domains",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-3",
+      "name": "Retries, timeouts, backoff, jitter, circuit breakers and bulkheads",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-4",
+      "name": "Idempotency, deduplication, ordering and at-least-once delivery",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-5",
+      "name": "API gateways, service discovery, authentication and authorization",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-6",
+      "name": "Relational vs NoSQL data modeling, indexes, transactions and connection pools",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-7",
+      "name": "High availability, multi-AZ/region, backup, restore and disaster recovery",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-8",
+      "name": "Secure-by-default architecture, observability and cost estimation",
+      "status": "Not assessed",
+      "section_id": "7-system-design-and-engineering-breadth-p1-p2",
+      "section": "7. System design and engineering breadth — P1/P2",
+      "topic_id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+      "topic": "Core competencies"
+    },
+    {
+      "id": "ai-gpu-fundamentals-gpu-vs-cpu-workloads-parallelism-and-memory-bandwidt",
+      "name": "GPU vs CPU workloads; parallelism and memory bandwidth.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-vram-capacity-utilization-fragmentation-and-allocati",
+      "name": "VRAM capacity, utilization, fragmentation and allocation.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-cuda-concepts-drivers-runtime-and-compatibility",
+      "name": "CUDA concepts, drivers, runtime and compatibility.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-multi-gpu-concepts-data-parallelism-tensor-paralleli",
+      "name": "Multi-GPU concepts: data parallelism, tensor parallelism and pipeline parallelism.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-gpu-scheduling-device-plugins-node-labels-taints-and",
+      "name": "GPU scheduling, device plugins, node labels, taints and topology awareness.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-mig-and-gpu-sharing-concepts-where-supported",
+      "name": "MIG and GPU sharing concepts where supported.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-pcie-nvlink-concepts-and-data-transfer-bottlenecks",
+      "name": "PCIe/NVLink concepts and data transfer bottlenecks.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-gpu-fundamentals-thermal-power-and-hardware-health-signals",
+      "name": "Thermal, power and hardware health signals.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-gpu-fundamentals",
+      "topic": "GPU fundamentals"
+    },
+    {
+      "id": "ai-operations-driver-runtime-compatibility-and-container-gpu-access",
+      "name": "Driver/runtime compatibility and container GPU access.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-operations",
+      "topic": "Operations"
+    },
+    {
+      "id": "ai-operations-gpu-telemetry-and-utilization-dashboards",
+      "name": "GPU telemetry and utilization dashboards.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-operations",
+      "topic": "Operations"
+    },
+    {
+      "id": "ai-operations-node-pool-isolation-quotas-and-workload-priority",
+      "name": "Node pool isolation, quotas and workload priority.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-operations",
+      "topic": "Operations"
+    },
+    {
+      "id": "ai-operations-capacity-planning-based-on-model-size-context-concurrency-",
+      "name": "Capacity planning based on model size, context, concurrency and throughput.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-operations",
+      "topic": "Operations"
+    },
+    {
+      "id": "ai-operations-failure-handling-for-unhealthy-gpus-and-unavailable-capaci",
+      "name": "Failure handling for unhealthy GPUs and unavailable capacity.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-operations",
+      "topic": "Operations"
+    },
+    {
+      "id": "ai-core-concepts-time-to-first-token-ttft-time-per-output-token-tpot-tok",
+      "name": "Time to first token (TTFT), time per output token (TPOT), tokens/second and end-to-end latency.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-continuous-batching-static-batching-and-dynamic-batchin",
+      "name": "Continuous batching, static batching and dynamic batching.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-kv-cache-and-context-length",
+      "name": "KV cache and context length.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-concurrency-queue-depth-backpressure-rate-limiting-and-",
+      "name": "Concurrency, queue depth, backpressure, rate limiting and admission control.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-quantization-and-quality-performance-trade-offs",
+      "name": "Quantization and quality/performance trade-offs.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-model-warm-up-cold-starts-autoscaling-and-graceful-shut",
+      "name": "Model warm-up, cold starts, autoscaling and graceful shutdown.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-model-routing-fallback-provider-outages-and-circuit-bre",
+      "name": "Model routing, fallback, provider outages and circuit breaking.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-core-concepts-streaming-responses-cancellation-and-client-disconnects",
+      "name": "Streaming responses, cancellation and client disconnects.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-core-concepts",
+      "topic": "Core concepts"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-document-ingestion-parsing-normalization-a",
+      "name": "Document ingestion, parsing, normalization and access-control metadata.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-chunking-strategy-overlap-metadata-and-sou",
+      "name": "Chunking strategy, overlap, metadata and source identifiers.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-embedding-model-selection-and-versioning",
+      "name": "Embedding model selection and versioning.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-vector-storage-indexing-and-similarity-sea",
+      "name": "Vector storage, indexing and similarity search.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-hybrid-retrieval-filters-and-reranking",
+      "name": "Hybrid retrieval, filters and reranking.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-context-assembly-prompt-construction-and-g",
+      "name": "Context assembly, prompt construction and generation.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-request-and-ingestion-path-source-attribution-citation-mapping-and-re",
+      "name": "Source attribution, citation mapping and response validation.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-request-and-ingestion-path",
+      "topic": "Request and ingestion path"
+    },
+    {
+      "id": "ai-evaluation-and-operations-retrieval-recall-precision-and-ranking-qual",
+      "name": "Retrieval recall/precision and ranking quality.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-evaluation-and-operations-answer-relevance-faithfulness-and-groundedn",
+      "name": "Answer relevance, faithfulness and groundedness.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-evaluation-and-operations-freshness-re-indexing-deletion-propagation-",
+      "name": "Freshness, re-indexing, deletion propagation and access revocation.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-evaluation-and-operations-tenant-isolation-and-row-document-level-aut",
+      "name": "Tenant isolation and row/document-level authorization.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-evaluation-and-operations-cache-invalidation-and-embedding-model-migr",
+      "name": "Cache invalidation and embedding model migration.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-evaluation-and-operations-latency-storage-token-and-retrieval-cost",
+      "name": "Latency, storage, token and retrieval cost.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-evaluation-and-operations",
+      "topic": "Evaluation and operations"
+    },
+    {
+      "id": "ai-tools-pgvector-https-github-com-pgvector-pgvector-vector-search-insid",
+      "name": "[pgvector](https://github.com/pgvector/pgvector) — vector search inside PostgreSQL.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-tools",
+      "topic": "Tools"
+    },
+    {
+      "id": "ai-tools-qdrant-https-qdrant-tech-documentation-vector-search-engine",
+      "name": "[Qdrant](https://qdrant.tech/documentation/) — vector search engine.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-tools",
+      "topic": "Tools"
+    },
+    {
+      "id": "ai-tools-milvus-https-milvus-io-docs-vector-database",
+      "name": "[Milvus](https://milvus.io/docs) — vector database.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-tools",
+      "topic": "Tools"
+    },
+    {
+      "id": "ai-tools-weaviate-https-weaviate-io-developers-weaviate-vector-database",
+      "name": "[Weaviate](https://weaviate.io/developers/weaviate) — vector database.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-tools",
+      "topic": "Tools"
+    },
+    {
+      "id": "ai-tools-llamaindex-https-docs-llamaindex-ai-data-and-retrieval-applicat",
+      "name": "[LlamaIndex](https://docs.llamaindex.ai/) — data and retrieval application framework.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-tools",
+      "topic": "Tools"
+    },
+    {
+      "id": "ai-architecture-user-or-event-trigger-orchestrator-model-tool-selection-",
+      "name": "User or event trigger → orchestrator → model → tool selection → tool execution → result validation → state update → final response.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-architecture-deterministic-workflow-for-known-steps-agent-reasoning-o",
+      "name": "Deterministic workflow for known steps; agent reasoning only where ambiguity adds value.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-architecture-typed-state-structured-outputs-checkpoints-and-explicit-",
+      "name": "Typed state, structured outputs, checkpoints and explicit termination conditions.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-architecture-tool-schemas-validation-authorization-idempotency-and-bo",
+      "name": "Tool schemas, validation, authorization, idempotency and bounded retries.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-architecture-human-approval-interrupts-for-high-impact-actions",
+      "name": "Human approval interrupts for high-impact actions.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-architecture-memory-and-retrieval-separated-from-trusted-policy-and-s",
+      "name": "Memory and retrieval separated from trusted policy and system instructions.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-architecture",
+      "topic": "Architecture"
+    },
+    {
+      "id": "ai-frameworks-and-protocols-model-context-protocol-https-modelcontextpro",
+      "name": "[Model Context Protocol](https://modelcontextprotocol.io/) — interoperability for exposing tools and context; understand hosts, clients, servers, tools, resources and prompts.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-frameworks-and-protocols",
+      "topic": "Frameworks and protocols"
+    },
+    {
+      "id": "ai-frameworks-and-protocols-langgraph-https-docs-langchain-com-oss-pytho",
+      "name": "[LangGraph](https://docs.langchain.com/oss/python/langgraph/overview) — stateful graph orchestration, persistence and human-in-the-loop workflows.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-frameworks-and-protocols",
+      "topic": "Frameworks and protocols"
+    },
+    {
+      "id": "ai-frameworks-and-protocols-langchain-https-docs-langchain-com-oss-pytho",
+      "name": "[LangChain](https://docs.langchain.com/oss/python/langchain/overview) — application components and agent abstractions.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-frameworks-and-protocols",
+      "topic": "Frameworks and protocols"
+    },
+    {
+      "id": "ai-frameworks-and-protocols-llamaindex-https-docs-llamaindex-ai-data-ing",
+      "name": "[LlamaIndex](https://docs.llamaindex.ai/) — data ingestion and retrieval-oriented applications.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-frameworks-and-protocols",
+      "topic": "Frameworks and protocols"
+    },
+    {
+      "id": "ai-frameworks-and-protocols-openai-api-documentation-https-platform-open",
+      "name": "[OpenAI API documentation](https://platform.openai.com/docs/) — model/API concepts; confirm current API features in official docs.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-frameworks-and-protocols",
+      "topic": "Frameworks and protocols"
+    },
+    {
+      "id": "ai-production-concerns-tool-permission-boundaries-and-workload-identity",
+      "name": "Tool permission boundaries and workload identity.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-prompt-injection-from-logs-tickets-documents-and-",
+      "name": "Prompt injection from logs, tickets, documents and command output.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-data-exfiltration-and-cross-tenant-leakage",
+      "name": "Data exfiltration and cross-tenant leakage.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-tool-output-treated-as-untrusted-data-never-as-po",
+      "name": "Tool output treated as untrusted data, never as policy.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-run-budgets-token-limits-deadlines-cancellation-a",
+      "name": "Run budgets, token limits, deadlines, cancellation and kill switch.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-trace-ids-tool-input-output-audit-versioned-promp",
+      "name": "Trace IDs, tool input/output audit, versioned prompts and replay.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-evaluation-datasets-deterministic-mocks-and-regre",
+      "name": "Evaluation datasets, deterministic mocks and regression tests.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    },
+    {
+      "id": "ai-production-concerns-human-approval-change-plans-dry-runs-and-post-act",
+      "name": "Human approval, change plans, dry-runs and post-action verification.",
+      "status": "Not assessed",
+      "section_id": "ai-infrastructure-mlops-agentic-systems",
+      "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topic_id": "ai-production-concerns",
+      "topic": "Production concerns"
+    }
+  ],
+  "structure": [
+    {
+      "id": "role-families-and-expected-emphasis",
+      "name": "Role families and expected emphasis",
+      "topics": []
+    },
+    {
+      "id": "1-core-systems-and-programming-p0",
+      "name": "1. Core systems and programming — P0",
+      "topics": [
+        {
+          "id": "linux-and-operating-systems",
+          "name": "Linux and operating systems",
+          "item_ids": [
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-filesystem",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-users-grou",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-processes-",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-cpu-load-m",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-logs-journ",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-package-ma",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-shell-envi",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-troublesho",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-linux-netw",
+            "1-core-systems-and-programming-p0-linux-and-operating-systems-backup-res"
+          ]
+        },
+        {
+          "id": "networking",
+          "name": "Networking",
+          "item_ids": [
+            "1-core-systems-and-programming-p0-networking-osi-and-tcp-ip-models-encap",
+            "1-core-systems-and-programming-p0-networking-ipv4-ipv6-cidr-subnetting-p",
+            "1-core-systems-and-programming-p0-networking-arp-icmp-tcp-handshake-tear",
+            "1-core-systems-and-programming-p0-networking-dns-records-recursive-resol",
+            "1-core-systems-and-programming-p0-networking-http-methods-status-codes-h",
+            "1-core-systems-and-programming-p0-networking-tls-handshake-certificates-",
+            "1-core-systems-and-programming-p0-networking-nat-snat-dnat-proxies-rever",
+            "1-core-systems-and-programming-p0-networking-firewalls-security-groups-n",
+            "1-core-systems-and-programming-p0-networking-vpn-peering-transit-routing",
+            "1-core-systems-and-programming-p0-networking-packet-path-troubleshooting"
+          ]
+        },
+        {
+          "id": "programming-and-automation",
+          "name": "Programming and automation",
+          "item_ids": [
+            "1-core-systems-and-programming-p0-programming-and-automation-bash-quotin",
+            "1-core-systems-and-programming-p0-programming-and-automation-python-data",
+            "1-core-systems-and-programming-p0-programming-and-automation-files-json-",
+            "1-core-systems-and-programming-p0-programming-and-automation-process-exe",
+            "1-core-systems-and-programming-p0-programming-and-automation-unit-tests-",
+            "1-core-systems-and-programming-p0-programming-and-automation-api-design-",
+            "1-core-systems-and-programming-p0-programming-and-automation-concurrency"
+          ]
+        },
+        {
+          "id": "git-and-collaboration",
+          "name": "Git and collaboration",
+          "item_ids": [
+            "1-core-systems-and-programming-p0-git-and-collaboration-working-tree-ind",
+            "1-core-systems-and-programming-p0-git-and-collaboration-merge-vs-rebase-",
+            "1-core-systems-and-programming-p0-git-and-collaboration-conflict-resolut",
+            "1-core-systems-and-programming-p0-git-and-collaboration-pr-reviews-branc",
+            "1-core-systems-and-programming-p0-git-and-collaboration-github-actions-i"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2-cloud-engineering-aws-first-p0-other-clouds-p2",
+      "name": "2. Cloud engineering — AWS-first P0, other clouds P2",
+      "topics": [
+        {
+          "id": "aws-identity-governance-and-security",
+          "name": "AWS identity, governance and security",
+          "item_ids": [
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-2",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-3",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-4",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-5",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-6",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-7",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-identity-governance-8"
+          ]
+        },
+        {
+          "id": "aws-networking",
+          "name": "AWS networking",
+          "item_ids": [
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-cidr",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-internet",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-security",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-endp",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-vpc-peer",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-route-53",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-alb-nlb-",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-aws-networking-cloudfro"
+          ]
+        },
+        {
+          "id": "compute-storage-and-data",
+          "name": "Compute, storage and data",
+          "item_ids": [
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-2",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-3",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-4",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-5",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-6",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-7",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-compute-storage-and-dat-8"
+          ]
+        },
+        {
+          "id": "operations-and-governance",
+          "name": "Operations and governance",
+          "item_ids": [
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-2",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-3",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-4",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-5",
+            "2-cloud-engineering-aws-first-p0-other-clouds-p2-operations-and-governan-6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-containers-orchestration-and-delivery-p0-p1",
+      "name": "3. Containers, orchestration and delivery — P0/P1",
+      "topics": [
+        {
+          "id": "docker",
+          "name": "Docker",
+          "item_ids": [
+            "3-containers-orchestration-and-delivery-p0-p1-docker-images-layers-regis",
+            "3-containers-orchestration-and-delivery-p0-p1-docker-dockerfile-build-co",
+            "3-containers-orchestration-and-delivery-p0-p1-docker-volumes-bind-mounts",
+            "3-containers-orchestration-and-delivery-p0-p1-docker-compose-services-he",
+            "3-containers-orchestration-and-delivery-p0-p1-docker-resource-limits-log",
+            "3-containers-orchestration-and-delivery-p0-p1-docker-image-scanning-sbom"
+          ]
+        },
+        {
+          "id": "kubernetes",
+          "name": "Kubernetes",
+          "item_ids": [
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-control-plane-a",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-pods-deployment",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-services-endpoi",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-configmaps-secr",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-requests-limits",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-liveness-readin",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-persistentvolum",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-namespaces-quot",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-cni-coredns-kub",
+            "3-containers-orchestration-and-delivery-p0-p1-kubernetes-troubleshooting"
+          ]
+        },
+        {
+          "id": "ci-cd-and-gitops",
+          "name": "CI/CD and GitOps",
+          "item_ids": [
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-pipeline-",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-build-tes",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-secrets-o",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-reproduci",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-deploymen",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-gitops-re",
+            "3-containers-orchestration-and-delivery-p0-p1-ci-cd-and-gitops-pipeline--2"
+          ]
+        },
+        {
+          "id": "infrastructure-as-code",
+          "name": "Infrastructure as Code",
+          "item_ids": [
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-ter",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-sta",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-mod",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-pla",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-sec",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-pol",
+            "3-containers-orchestration-and-delivery-p0-p1-infrastructure-as-code-con"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4-reliability-observability-security-and-finops-p1",
+      "name": "4. Reliability, observability, security and FinOps — P1",
+      "topics": [
+        {
+          "id": "observability-and-sre",
+          "name": "Observability and SRE",
+          "item_ids": [
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-2",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-3",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-4",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-5",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-6",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-7",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-8",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-9",
+            "4-reliability-observability-security-and-finops-p1-observability-and-sre-10"
+          ]
+        },
+        {
+          "id": "security-devsecops",
+          "name": "Security / DevSecOps",
+          "item_ids": [
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-th",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-ia",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-se",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-sa",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-sb",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-ku",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-en",
+            "4-reliability-observability-security-and-finops-p1-security-devsecops-vu"
+          ]
+        },
+        {
+          "id": "finops",
+          "name": "FinOps",
+          "item_ids": [
+            "4-reliability-observability-security-and-finops-p1-finops-cost-allocatio",
+            "4-reliability-observability-security-and-finops-p1-finops-compute-storag",
+            "4-reliability-observability-security-and-finops-p1-finops-rightsizing-au",
+            "4-reliability-observability-security-and-finops-p1-finops-unit-economics",
+            "4-reliability-observability-security-and-finops-p1-finops-gpu-utilizatio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization",
+      "name": "5. AI, MLOps and AI infrastructure — P1 specialization",
+      "topics": [
+        {
+          "id": "5-ai-mlops-and-ai-infrastructure-p1-specialization-core-competencies",
+          "name": "Core competencies",
+          "item_ids": [
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-2",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-3",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-4",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-5",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-6",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-7",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-8",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-9",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-10",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-11",
+            "5-ai-mlops-and-ai-infrastructure-p1-specialization-5-ai-mlops-and-ai-inf-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6-agentic-ai-and-autonomous-operations-p1-specialization",
+      "name": "6. Agentic AI and autonomous operations — P1 specialization",
+      "topics": [
+        {
+          "id": "6-agentic-ai-and-autonomous-operations-p1-specialization-core-competenci",
+          "name": "Core competencies",
+          "item_ids": [
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-2",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-3",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-4",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-5",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-6",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-7",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-8",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-9",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-10",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-11",
+            "6-agentic-ai-and-autonomous-operations-p1-specialization-6-agentic-ai-an-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7-system-design-and-engineering-breadth-p1-p2",
+      "name": "7. System design and engineering breadth — P1/P2",
+      "topics": [
+        {
+          "id": "7-system-design-and-engineering-breadth-p1-p2-core-competencies",
+          "name": "Core competencies",
+          "item_ids": [
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-2",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-3",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-4",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-5",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-6",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-7",
+            "7-system-design-and-engineering-breadth-p1-p2-7-system-design-and-engine-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8-evidence-standard",
+      "name": "8. Evidence standard",
+      "topics": []
+    },
+    {
+      "id": "ai-infrastructure-mlops-agentic-systems",
+      "name": "AI Infrastructure, MLOps & Agentic Systems Engineering",
+      "topics": [
+        {
+          "id": "ai-gpu-fundamentals",
+          "name": "GPU fundamentals",
+          "item_ids": [
+            "ai-gpu-fundamentals-gpu-vs-cpu-workloads-parallelism-and-memory-bandwidt",
+            "ai-gpu-fundamentals-vram-capacity-utilization-fragmentation-and-allocati",
+            "ai-gpu-fundamentals-cuda-concepts-drivers-runtime-and-compatibility",
+            "ai-gpu-fundamentals-multi-gpu-concepts-data-parallelism-tensor-paralleli",
+            "ai-gpu-fundamentals-gpu-scheduling-device-plugins-node-labels-taints-and",
+            "ai-gpu-fundamentals-mig-and-gpu-sharing-concepts-where-supported",
+            "ai-gpu-fundamentals-pcie-nvlink-concepts-and-data-transfer-bottlenecks",
+            "ai-gpu-fundamentals-thermal-power-and-hardware-health-signals"
+          ]
+        },
+        {
+          "id": "ai-operations",
+          "name": "Operations",
+          "item_ids": [
+            "ai-operations-driver-runtime-compatibility-and-container-gpu-access",
+            "ai-operations-gpu-telemetry-and-utilization-dashboards",
+            "ai-operations-node-pool-isolation-quotas-and-workload-priority",
+            "ai-operations-capacity-planning-based-on-model-size-context-concurrency-",
+            "ai-operations-failure-handling-for-unhealthy-gpus-and-unavailable-capaci"
+          ]
+        },
+        {
+          "id": "ai-core-concepts",
+          "name": "Core concepts",
+          "item_ids": [
+            "ai-core-concepts-time-to-first-token-ttft-time-per-output-token-tpot-tok",
+            "ai-core-concepts-continuous-batching-static-batching-and-dynamic-batchin",
+            "ai-core-concepts-kv-cache-and-context-length",
+            "ai-core-concepts-concurrency-queue-depth-backpressure-rate-limiting-and-",
+            "ai-core-concepts-quantization-and-quality-performance-trade-offs",
+            "ai-core-concepts-model-warm-up-cold-starts-autoscaling-and-graceful-shut",
+            "ai-core-concepts-model-routing-fallback-provider-outages-and-circuit-bre",
+            "ai-core-concepts-streaming-responses-cancellation-and-client-disconnects"
+          ]
+        },
+        {
+          "id": "ai-request-and-ingestion-path",
+          "name": "Request and ingestion path",
+          "item_ids": [
+            "ai-request-and-ingestion-path-document-ingestion-parsing-normalization-a",
+            "ai-request-and-ingestion-path-chunking-strategy-overlap-metadata-and-sou",
+            "ai-request-and-ingestion-path-embedding-model-selection-and-versioning",
+            "ai-request-and-ingestion-path-vector-storage-indexing-and-similarity-sea",
+            "ai-request-and-ingestion-path-hybrid-retrieval-filters-and-reranking",
+            "ai-request-and-ingestion-path-context-assembly-prompt-construction-and-g",
+            "ai-request-and-ingestion-path-source-attribution-citation-mapping-and-re"
+          ]
+        },
+        {
+          "id": "ai-evaluation-and-operations",
+          "name": "Evaluation and operations",
+          "item_ids": [
+            "ai-evaluation-and-operations-retrieval-recall-precision-and-ranking-qual",
+            "ai-evaluation-and-operations-answer-relevance-faithfulness-and-groundedn",
+            "ai-evaluation-and-operations-freshness-re-indexing-deletion-propagation-",
+            "ai-evaluation-and-operations-tenant-isolation-and-row-document-level-aut",
+            "ai-evaluation-and-operations-cache-invalidation-and-embedding-model-migr",
+            "ai-evaluation-and-operations-latency-storage-token-and-retrieval-cost"
+          ]
+        },
+        {
+          "id": "ai-tools",
+          "name": "Tools",
+          "item_ids": [
+            "ai-tools-pgvector-https-github-com-pgvector-pgvector-vector-search-insid",
+            "ai-tools-qdrant-https-qdrant-tech-documentation-vector-search-engine",
+            "ai-tools-milvus-https-milvus-io-docs-vector-database",
+            "ai-tools-weaviate-https-weaviate-io-developers-weaviate-vector-database",
+            "ai-tools-llamaindex-https-docs-llamaindex-ai-data-and-retrieval-applicat"
+          ]
+        },
+        {
+          "id": "ai-architecture",
+          "name": "Architecture",
+          "item_ids": [
+            "ai-architecture-user-or-event-trigger-orchestrator-model-tool-selection-",
+            "ai-architecture-deterministic-workflow-for-known-steps-agent-reasoning-o",
+            "ai-architecture-typed-state-structured-outputs-checkpoints-and-explicit-",
+            "ai-architecture-tool-schemas-validation-authorization-idempotency-and-bo",
+            "ai-architecture-human-approval-interrupts-for-high-impact-actions",
+            "ai-architecture-memory-and-retrieval-separated-from-trusted-policy-and-s"
+          ]
+        },
+        {
+          "id": "ai-frameworks-and-protocols",
+          "name": "Frameworks and protocols",
+          "item_ids": [
+            "ai-frameworks-and-protocols-model-context-protocol-https-modelcontextpro",
+            "ai-frameworks-and-protocols-langgraph-https-docs-langchain-com-oss-pytho",
+            "ai-frameworks-and-protocols-langchain-https-docs-langchain-com-oss-pytho",
+            "ai-frameworks-and-protocols-llamaindex-https-docs-llamaindex-ai-data-ing",
+            "ai-frameworks-and-protocols-openai-api-documentation-https-platform-open"
+          ]
+        },
+        {
+          "id": "ai-production-concerns",
+          "name": "Production concerns",
+          "item_ids": [
+            "ai-production-concerns-tool-permission-boundaries-and-workload-identity",
+            "ai-production-concerns-prompt-injection-from-logs-tickets-documents-and-",
+            "ai-production-concerns-data-exfiltration-and-cross-tenant-leakage",
+            "ai-production-concerns-tool-output-treated-as-untrusted-data-never-as-po",
+            "ai-production-concerns-run-budgets-token-limits-deadlines-cancellation-a",
+            "ai-production-concerns-trace-ids-tool-input-output-audit-versioned-promp",
+            "ai-production-concerns-evaluation-datasets-deterministic-mocks-and-regre",
+            "ai-production-concerns-human-approval-change-plans-dry-runs-and-post-act"
+          ]
+        }
+      ]
+    }
+  ],
+  "progress_model": {
+    "legacy_score": "Preserved from original 30 broad competencies.",
+    "detailed_score": "Assessed granular items only; unassessed items are excluded and empty sections display Not assessed."
+  }
 }
