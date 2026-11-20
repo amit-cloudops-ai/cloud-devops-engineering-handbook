@@ -2,6 +2,9 @@
 
 The operating-system and network knowledge expected across Cloud, DevOps, SRE and Platform roles.
 
+## Software delivery lifecycle
+- [SDLC study notes](SDLC.md) — stages, models, DevOps/CI/CD, DevSecOps and interview revision.
+
 ## Topics
 - Linux architecture, boot, filesystem, permissions, users and groups.
 - Processes, threads, signals, systemd, services, logs and scheduling.
