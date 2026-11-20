@@ -18,6 +18,18 @@ This is the competency inventory for the roles targeted by this handbook. It is 
 | AI Platform / MLOps Engineer | Python, ML lifecycle, model registry, pipelines, feature/data systems | MLflow, Kubeflow, KServe, model monitoring |
 | Agentic AI / AIOps Engineer | APIs, agents, tool contracts, workflow orchestration, evaluation | MCP, LangGraph, safety, auditability, human approval |
 
+## 0. Software delivery lifecycle — P0
+
+### SDLC and delivery fundamentals
+- [ ] Explain the seven commonly described SDLC stages, their outputs and operational implications
+- [ ] Distinguish functional and non-functional requirements; explain HLD vs LLD
+- [ ] Compare Waterfall, V-Model, Agile, Iterative, Incremental, Spiral, RAD and Prototype models
+- [ ] Distinguish Agile from Scrum/Kanban; iterative from incremental; verification from validation
+- [ ] Map DevOps, CI/CD and DevSecOps practices across the lifecycle
+- [ ] Trace a code change through build, test, artifact promotion, deployment, health checks and rollback
+
+**Study notes:** [SDLC foundations](00-foundations/SDLC.md) · **Interview drill:** [SDLC question bank](12-interview-preparation/sdlc-interview-questions.md)
+
 ## 1. Core systems and programming — P0
 
 ### Linux and operating systems
