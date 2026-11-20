@@ -2,6 +2,10 @@
 
 Prepare by role while building from shared fundamentals.
 
+## SDLC practice
+- [SDLC interview question bank](sdlc-interview-questions.md) — 56 questions from fundamentals through applied scenarios.
+- [SDLC study notes](../00-foundations/SDLC.md).
+
 ## Main practice assets
 
 - [210-question bank](../INTERVIEW-QUESTION-BANK.md) — foundational, mechanistic, practical and design questions.
