@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-20",
   "statuses": [
     "Not started",
     "Learning",
@@ -248,6 +248,14 @@
       "priority": "P0",
       "status": "Learning",
       "next": "Match target roles to evidence and maintain a company outreach log."
+    },
+    {
+      "id": "sdlc",
+      "name": "SDLC & software delivery lifecycle",
+      "track": "Foundations / Career readiness",
+      "priority": "P0",
+      "status": "Learning",
+      "next": "Complete the SDLC model comparison, map one project to all seven stages, and answer 15 interview questions unaided."
     }
   ],
   "projects": [
@@ -2213,6 +2221,60 @@
       "section": "AI Infrastructure, MLOps & Agentic Systems Engineering",
       "topic_id": "ai-production-concerns",
       "topic": "Production concerns"
+    },
+    {
+      "id": "sdlc-seven-stages",
+      "name": "Explain the seven commonly described SDLC stages and outputs",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
+    },
+    {
+      "id": "sdlc-requirements-design",
+      "name": "Distinguish functional/NFR requirements and HLD/LLD",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
+    },
+    {
+      "id": "sdlc-models",
+      "name": "Compare Waterfall, V-Model, Agile, Iterative, Incremental, Spiral, RAD and Prototype",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
+    },
+    {
+      "id": "sdlc-devops-cicd",
+      "name": "Map DevOps and CI/CD responsibilities across software delivery",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
+    },
+    {
+      "id": "sdlc-devsecops",
+      "name": "Explain security integration across the SDLC",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
+    },
+    {
+      "id": "sdlc-interview",
+      "name": "Answer SDLC fundamentals, model selection and production scenarios unaided",
+      "status": "Not assessed",
+      "section_id": "00-foundations",
+      "section": "00. Foundations",
+      "topic_id": "sdlc",
+      "topic": "SDLC & software delivery lifecycle"
     }
   ],
   "structure": [
