@@ -28,6 +28,10 @@ This is a public learning system and engineering portfolio. It turns preparation
 
 **Project evidence:** 0/20 checks complete across 4 projects.
 
+### Current learning focus
+
+- **SDLC & software delivery lifecycle — Learning**: [study notes](00-foundations/SDLC.md) · [56 interview questions](12-interview-preparation/sdlc-interview-questions.md). The preserved 9% baseline graphic below predates this newly added skill; `progress.json` and `PROGRESS.md` now record it.
+
 ### Detailed handbook map
 
 Every handbook section and topic has its own circular progress ring in the map below. Each individual checklist item has a separate readiness status. All newly split items begin as **Not assessed**; this is different from Not started. The original 9% baseline is preserved.
