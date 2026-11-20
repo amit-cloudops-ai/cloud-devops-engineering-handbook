@@ -10,6 +10,7 @@ The initial baseline is based on the existing project history and prior tracker 
 
 | Topic | Status | Evidence / link | Next action |
 |---|---|---|---|
+| SDLC and software delivery lifecycle | Learning | First study session; notes and question bank added | Map a real project to all seven stages and attempt 15 questions unaided |
 | Linux and OS | Learning | Existing Linux/WSL and operational practice | LAB-LNX-01 and sysadmin question drill |
 | Networking | Not started | No current assessment recorded | LAB-NET-01: DNS, TCP, HTTP/TLS and packet path |
 | Git and GitHub | Learning | Existing GitHub project and branch workflows | Conflict resolution and recovery |
@@ -55,7 +56,7 @@ Use [the interactive dashboard](dashboard/index.html) for visual progress. It st
 
 | Date | Focus | Practical evidence | Questions attempted | Result / gaps | Next session |
 |---|---|---|---:|---|---|
-| YYYY-MM-DD | | | | | |
+| 2026-11-20 | SDLC fundamentals, lifecycle models and DevOps/CI/CD connection | Study notes and interview question bank added; applied lab pending | 0 | Learning started; need model comparison, project mapping and oral assessment | Complete SDLC project map and 15-question drill |
 
 ## Weekly review
 
