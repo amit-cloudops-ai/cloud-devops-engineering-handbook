@@ -13,14 +13,14 @@ This is a public learning system and engineering portfolio. It turns preparation
 <p align="center">
 <img src="assets/preparation-progress.svg" width="145" alt="Overall baseline progress">
 </p>
-<p align="center"><strong>9% overall baseline</strong> · 14/150 weighted points · 30 original broad competencies</p>
+<p align="center"><strong>10% overall baseline</strong> · 15/155 weighted points · 31 original broad competencies</p>
 
 ### Preserved baseline
 
 | Readiness stage | Broad competencies |
 |---|---:|
 | Not started | 16 |
-| Learning | 14 |
+| Learning | 15 |
 | Lab completed | 0 |
 | Documented | 0 |
 | Interview tested | 0 |
