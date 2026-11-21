@@ -14,6 +14,12 @@ Prepare by role while building from shared fundamentals.
 - [Interview Intelligence](../17-interview-intelligence/README.md) — external question resources and company-reported experiences.
 - [Interview Tracker](../INTERVIEW-TRACKER.md) — topic drills, mock interviews and company logs.
 
+## Resume tailoring
+
+- [Resume tailoring workflow](resume/README.md) — canonical instructions for tailoring Amit's resume to each job description.
+- [Resume Playbook](resume/RESUME-PLAYBOOK.md) — verified facts and strict JD-tailoring rules.
+- [Base LaTeX resume](resume/base-resume.tex) — one-page pdfLaTeX template; preserve its layout when tailoring.
+
 ## Tracks
 
 - DevOps: Linux, Git, scripting, Docker, CI/CD, cloud and troubleshooting.
