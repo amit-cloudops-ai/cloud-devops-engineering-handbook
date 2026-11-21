@@ -125,7 +125,7 @@ You are a resume editor, not an author. The facts belong to Amit.
 \vspace{-4pt}
 
 \sect{EDUCATION}
-\entry{National Institute of Technology Karnataka (NITK), Surathkal}{Surathkal, Karnataka}{Bachelor of Technology in Metallurgical and Materials Engineering}{Graduation Date: May 2025}
+\entry{National Institute of Technology Karnataka (NITK), Surathkal}{Surathkal, Karnataka}{Bachelor of Technology in Metallurgical and Materials Engineering}{}
 
 \gap
 \sect{WORK EXPERIENCE}
