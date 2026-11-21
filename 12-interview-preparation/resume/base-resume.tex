@@ -1,0 +1,86 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[left=0.75in,right=0.75in,top=0.2in,bottom=0.3in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{enumitem}
+\usepackage[hidelinks,pdftitle={Amit P M - Resume},pdfauthor={Amit P M},pdfcreator={},pdfproducer={},pdfsubject={},pdfkeywords={}]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\linespread{1.0}\hyphenpenalty=10000\exhyphenpenalty=10000\tolerance=2000
+
+\newcommand{\sect}[1]{\noindent{\bfseries #1}\par\nointerlineskip\vspace{2pt}\hrule height 0.6pt\vspace{2pt}}
+\newcommand{\entry}[4]{%
+  \noindent{\bfseries #1}\hfill{\bfseries #2}\par
+  \noindent{\itshape #3}\hfill{\itshape #4}\par}
+\newenvironment{bul}{\begin{itemize}[leftmargin=18pt,labelsep=0pt,labelwidth=18pt,itemsep=0pt,parsep=0pt,topsep=0pt,partopsep=0pt,align=left,label={\raisebox{0.3pt}{\large$\bullet$}}]}{\end{itemize}}
+\newcommand{\gap}{\vspace{10pt}}
+
+\begin{document}
+\begin{center}\vspace{0pt}
+{\bfseries\fontsize{19}{21}\selectfont Amit P M}\\[1pt]
+{\fontsize{11}{12}\selectfont Karnataka, India | \href{https://linkedin.com/in/amitpm8}{\textcolor{blue}{\underline{LinkedIn}}} | \href{https://github.com/amit-cloudops-ai}{\textcolor{blue}{\underline{GitHub}}} | \href{https://amitpm.dpdns.org/}{\textcolor{blue}{\underline{Portfolio}}} | 7349400805 | amitpm.work@gmail.com}
+\end{center}
+\vspace{-4pt}
+
+\sect{EDUCATION}
+\entry{National Institute of Technology Karnataka (NITK), Surathkal}{Surathkal, Karnataka}{Bachelor of Technology in Metallurgical and Materials Engineering}{}
+
+\gap
+\sect{WORK EXPERIENCE}
+\entry{F13 Technologies}{Bengaluru, India}{AWS Cloud Intern}{September 2026 -- Present}
+\begin{bul}
+\item Lead a 4-member team on cloud builds, splitting each project into 3 parts, assigning an owner to every part, and merging them into one working system, with progress tracked in a shared team workspace and reviewed by the mentor.
+\item Built a serverless attendance system on S3, Lambda, Rekognition, DynamoDB, and EventBridge sized for 100 employees, plus a Textract and Comprehend resume screener ranking candidates by skills 50\%, title 30\%, experience 20\%.
+\item Authored a 14-slide case study on how Epic Games scales its AWS infrastructure for live matches, owning the lobby slides, match statistics, lessons learned, and the visual theme, then delivered it to the mentor as a PDF report.
+\end{bul}
+
+\gap
+\entry{Kannur PU College (CBSE)}{Ranebennur, India}{Mathematics Teacher --- Competitive Exams \& Class XI--XII}{September 2025 -- June 2026}
+\begin{bul}
+\item Taught Mathematics for 10 months to Class 11--12 CBSE students, covering the full syllabus alongside a separate preparation track for competitive exams, with every lesson planned and delivered independently all year.
+\item Managed pacing, assessments, and exam readiness over the academic year, balancing board syllabus coverage with competitive-exam preparation and keeping both on a single teaching schedule.
+\item Rewrote hard topics as step-by-step worked solutions, so students could follow the reasoning behind each step, retrace it during revision, and attempt unfamiliar exam problems on their own.
+\end{bul}
+
+\gap
+\entry{Bharat Heavy Electricals Limited (BHEL), Electronics Division}{Bengaluru, India}{Industrial Trainee --- Manufacturing Operations}{May 2024 -- July 2024}
+\begin{bul}
+\item Raised on-floor delivery performance by 30\% during a 3-month trainee stint by timing each work step in time-motion studies, then rebalancing workload across stations on the manufacturing line.
+\item Coordinated Engineering, PPC, Quality, and Material Management teams to keep production, inspection, and material flow aligned on the shop floor and streamline the hand-offs between them as work moved from planning to inspection.
+\item Wrote a department-wide report covering SAP workflow integration, ISO 9001 audits, and defect-tracking systems, drawn from observations made while working with all four teams and shared across the department.
+\end{bul}
+
+\gap
+\sect{PROJECTS}
+\entry{Progressive Delivery Platform on EKS}{\href{https://github.com/amit-cloudops-ai/pdp-eks-gitops}{GitHub}}{Terraform, Karpenter, ArgoCD, Argo Rollouts}{September 2026}
+\begin{bul}
+\item Provisioned an EKS cluster with Terraform and used Karpenter to launch nodes in about 10 seconds, with ArgoCD syncing every Juice Shop manifest from Git and External Secrets pulling credentials from Secrets Manager.
+\item Shipped releases as Argo Rollouts canary steps of 10\%, 50\%, and 100\% over Gateway API, then showed a deliberately broken image never received traffic and reverted on its own, with Grafana, Loki, and Slack alerts watching.
+\end{bul}
+
+\gap
+\entry{Three-Tier Web Application on AWS}{\href{https://github.com/Amitpm8/Devops-3-tire-project-001}{GitHub}}{AWS VPC, EC2, RDS, Tomcat, Spring Boot}{June 2026}
+\begin{bul}
+\item Architected a VPC with 6 subnets across 2 Availability Zones, separating public, application, and database tiers, with 2 NAT Gateways for outbound traffic and 4 Security Groups limiting each tier to its upstream neighbor.
+\item Deployed a Spring Boot login app behind Nginx and Tomcat with an RDS MySQL backend, then verified the full chain by registering a user, signing in, and confirming the session against the database.
+\end{bul}
+
+\gap
+\entry{Zero-Downtime API Deployments on AWS}{\href{https://github.com/Amitpm8/aws-zero-downtime-deployment}{GitHub}}{AWS Lambda, API Gateway, CloudWatch}{March 2026}
+\begin{bul}
+\item Implemented Blue-Green and Canary strategies for a serverless API, shifting traffic through API Gateway in 10\% increments, and staged 12+ releases with zero incidents, keeping the old version live until the new one proved healthy.
+\item Automated 4XX and 5XX error-rate detection with CloudWatch Alarms and SNS, sending alerts within 60 seconds of a threshold breach so a faulty release could be caught before it reached every user.
+\end{bul}
+
+\gap
+\sect{TECHNICAL SKILLS}
+\noindent{\bfseries Languages \& Scripting:} Python | Bash/Shell Scripting | YAML | SQL\par\vspace{2pt}
+\noindent{\bfseries Cloud (AWS):} EC2 | S3 | VPC | IAM | Lambda | CloudFront | RDS | API Gateway | CloudWatch\par\vspace{2pt}
+\noindent{\bfseries Containers \& Orchestration:} Docker | Kubernetes | Amazon EKS | CNI | CSI | NGINX Ingress | Gateway API | Karpenter\par\vspace{2pt}
+\noindent{\bfseries CI/CD, GitOps \& IaC:} Git | GitHub Actions | ArgoCD | Terraform | AWS CloudFormation | Ansible\par\vspace{2pt}
+\noindent{\bfseries Monitoring \& Observability:} Prometheus | Grafana | CloudWatch | OpenTelemetry | Loki\par\vspace{2pt}
+\noindent{\bfseries OS \& Networking:} Linux (Ubuntu) | DNS | TCP/IP | Subnetting | Nginx
+\end{document}
