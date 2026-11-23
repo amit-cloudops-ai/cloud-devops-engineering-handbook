@@ -10,8 +10,8 @@ The initial baseline is based on the existing project history and prior tracker 
 
 | Topic | Status | Evidence / link | Next action |
 |---|---|---|---|
-| SDLC and software delivery lifecycle | Learning | First study session; notes and question bank added | Map a real project to all seven stages and attempt 15 questions unaided |
-| Linux and OS | Learning | Existing Linux/WSL and operational practice | LAB-LNX-01 and sysadmin question drill |
+| SDLC and software delivery lifecycle | Learning | Study notes expanded with beginner-first diagrams, glossary and e-portfolio mapping; 56-question bank exists. No unaided assessment recorded yet. | Map a real project to all seven stages; complete model comparison and 15-question oral drill |
+| Linux and OS | Learning | Linux foundations chapter, command-practice routine and topic-limited interview/scenario bank added. Concepts covered through APT; practical verification is still pending. | Run the safe command lab; complete permission/process/service/package drills; continue with storage, memory, logs and networking |
 | Networking | Not started | No current assessment recorded | LAB-NET-01: DNS, TCP, HTTP/TLS and packet path |
 | Git and GitHub | Learning | Existing GitHub project and branch workflows | Conflict resolution and recovery |
 | Bash | Learning | Existing scripting practice | Tested operational script |
@@ -57,6 +57,7 @@ Use [the interactive dashboard](dashboard/index.html) for visual progress. It st
 | Date | Focus | Practical evidence | Questions attempted | Result / gaps | Next session |
 |---|---|---|---:|---|---|
 | 2026-11-20 | SDLC fundamentals, lifecycle models and DevOps/CI/CD connection | Study notes and interview question bank added; applied lab pending | 0 | Learning started; need model comparison, project mapping and oral assessment | Complete SDLC project map and 15-question drill |
+| 2026-11-23 | Linux foundations through package management; SDLC documentation refresh | Added Linux foundations chapter, glossary, diagrams, daily command routine and 76-question/15-scenario practice bank; expanded SDLC notes with glossary, lifecycle diagram and e-portfolio example. User's older Foundation notes reviewed and technical inaccuracies corrected. No new lab completion or interview score claimed. | 0 | Concepts documented; commands, package lab, SDLC project mapping and oral interview practice still need evidence | Continue Linux with storage/memory/logs/networking; run daily command drills; then complete SDLC and Linux scenario assessments |
 
 ## Weekly review
 
