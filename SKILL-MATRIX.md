@@ -44,6 +44,8 @@ This is the competency inventory for the roles targeted by this handbook. It is 
 - [ ] Linux networking: interfaces, routes, firewall, DNS resolver
 - [ ] Backup, restore, cron, systemd timers, process supervision
 
+**Study material (covered so far):** [Linux foundations chapter](00-foundations/LINUX-FOUNDATIONS.md) · [daily command drills](00-foundations/LINUX-DAILY-COMMAND-PRACTICE.md) · [interview questions and scenarios](12-interview-preparation/linux-foundations-interview-questions.md). This is a partial learning record, not a completed competency checklist.
+
 **Tools:** Ubuntu/RHEL, WSL, SSH, tmux, systemd, journalctl, coreutils, procps, iproute2, lsof, strace.
 
 ### Networking
