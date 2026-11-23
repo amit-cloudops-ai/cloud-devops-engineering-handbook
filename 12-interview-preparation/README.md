@@ -2,9 +2,12 @@
 
 Prepare by role while building from shared fundamentals.
 
-## SDLC practice
+## Foundations practice: SDLC and Linux
 - [SDLC interview question bank](sdlc-interview-questions.md) — 56 questions from fundamentals through applied scenarios.
 - [SDLC study notes](../00-foundations/SDLC.md).
+- [Linux foundations interview questions](linux-foundations-interview-questions.md) — 76 questions and 15 troubleshooting scenarios limited to the Linux topics studied so far.
+- [Linux foundations notes](../00-foundations/LINUX-FOUNDATIONS.md).
+- [Daily Linux command practice](../00-foundations/LINUX-DAILY-COMMAND-PRACTICE.md).
 
 ## Main practice assets
 
