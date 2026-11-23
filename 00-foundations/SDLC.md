@@ -245,3 +245,109 @@ This note consolidates the SDLC and SDLC-model material supplied during the lear
 ---
 
 **Study status:** Learning. Do not mark this topic documented or interview-ready until the explanation, comparison and interview drills have been completed and reviewed.
+
+
+---
+
+## 11. Beginner-first mental model and visual lifecycle
+
+### Explain it like you're five
+
+Imagine a team is asked to build a school library. They do not start hammering wood randomly. First they understand what the school needs, plan the work, draw the design, build it, check that it is safe and useful, open it, and then repair and improve it. Software follows the same kind of journey.
+
+```text
+IDEA / BUSINESS NEED
+        |
+        v
+1. PLAN       Is it useful, possible and affordable?
+        |
+        v
+2. REQUIRE    What must it do? What quality is required?
+        |
+        v
+3. DESIGN     What components and interfaces will make it work?
+        |
+        v
+4. DEVELOP    Build the software and review changes.
+        |
+        v
+5. TEST       Does it behave correctly against requirements?
+        |
+        v
+6. DEPLOY     Release a known version safely to users.
+        |
+        v
+7. MAINTAIN   Monitor, fix, secure and improve it.
+        |
+        +---------------------> feedback informs the next cycle
+```
+
+This is a teaching sequence, not a mandatory one-way path. Real teams overlap stages and revisit earlier decisions.
+
+## 12. SDLC technical vocabulary
+
+| Term | Beginner-friendly meaning | Why it matters |
+|---|---|---|
+| Stakeholder | Person/group affected by or able to influence the product | Requirements must reflect real needs |
+| Feasibility | Whether the idea can realistically be delivered | Prevents impossible or unaffordable work |
+| Scope | What is included and excluded | Controls expectations and change |
+| Requirement | A needed capability or constraint | Defines what success means |
+| Functional requirement | What the system must do | Describes features and behaviour |
+| Non-functional requirement (NFR) | How well or under what constraints it must work | Drives reliability, security and performance |
+| SRS | Software Requirements Specification | Shared reference for implementation and testing |
+| Acceptance criteria | Conditions that must be met for a requirement/story to be accepted | Makes completion testable |
+| Traceability | Link from requirement to design, code, tests and release evidence | Helps prove important requirements were addressed |
+| HLD | High-Level Design; big-picture architecture | Shows major components and relationships |
+| LLD | Low-Level Design; detailed component behaviour | Guides implementation and testing |
+| API | Application Programming Interface; defined way for components to communicate | Enables integration |
+| QA | Quality Assurance; practices that prevent/detect quality problems | Quality is a process, not only a final test |
+| Unit test | Test of a small unit such as a function | Finds local logic defects |
+| Integration test | Test that connected components work together | Finds interface/dependency defects |
+| System test | Test of the whole system | Checks end-to-end behaviour |
+| UAT | User Acceptance Testing by business/users | Checks whether it solves the intended need |
+| Defect/bug | Behaviour that fails an expected requirement | Needs triage, correction and retest |
+| Artifact | Built, versioned output such as a package or container image | Enables repeatable promotion |
+| Environment | Place where software runs, such as dev, staging or production | Separates test and live workloads |
+| Smoke test | Short check that key service functions after release | Detects obvious release failures |
+| Rollback | Return to a previously known-good version/state | Limits release impact |
+| Verification | Are we building the product according to the specification? | Checks conformance |
+| Validation | Are we building the right product for the user's need? | Checks fitness for purpose |
+| DevOps | Shared ownership, automation and feedback across development and operations | Connects building and running software |
+| CI | Continuous Integration; frequent integration with automated build/test | Finds integration problems early |
+| Continuous Delivery | Keep changes deployable, with a controlled production-release decision | Makes releases repeatable |
+| Continuous Deployment | Automatically release every qualifying change to production after required gates | Removes the manual production-release step |
+| DevSecOps | Security practices and shared responsibility across delivery and operations | Avoids treating security as a final-stage activity |
+| SAST | Static Application Security Testing; examines code without running the app | Finds certain code weaknesses early |
+| DAST | Dynamic Application Security Testing; tests a running application | Finds certain runtime-visible weaknesses |
+
+## 13. Apply SDLC to an e-portfolio website
+
+Your older Foundation notes suggest using an e-portfolio website as an SDLC example. This is a generic worked example; it is not a claim that any particular portfolio project has completed these stages.
+
+| Stage | Example |
+|---|---|
+| Planning | Identify audience (recruiters/clients), purpose, timeline, budget and success measures |
+| Requirements | Define pages, projects, contact method, accessibility, mobile behaviour, SEO and performance needs |
+| Design | Create sitemap, layouts, content model, responsive behaviour, hosting and deployment architecture |
+| Development | Build pages, project details, navigation, contact flow and metadata in version control |
+| Testing | Check links, forms, mobile layouts, keyboard access, browser compatibility, metadata and performance |
+| Deployment | Publish a version, verify DNS/HTTPS and run smoke checks |
+| Maintenance | Update projects, patch dependencies, monitor availability, fix defects and refresh content |
+
+A requirement such as "the website must be fast" is vague. Define a measurable target and test method based on the actual project requirements; do not invent an arbitrary performance promise.
+
+## 14. Interview answer and revision method
+
+For "Explain SDLC", answer in this order:
+
+1. Define SDLC.
+2. Explain the seven commonly described stages.
+3. Explain that models organise the stages differently.
+4. Connect DevOps, CI/CD and DevSecOps to the lifecycle.
+5. Give a concrete example and mention feedback/maintenance.
+
+**Sample answer:**
+
+"SDLC is the structured lifecycle used to turn a business need into software that can be maintained. A common representation includes planning, requirements, design, development, testing, deployment and maintenance. Models such as Waterfall, V-Model and Agile organise this work differently depending on uncertainty, risk and feedback needs. DevOps improves the lifecycle through shared development/operations ownership, automation and production feedback. CI/CD automates integration, verification and release steps, while DevSecOps integrates security throughout the lifecycle. For example, an e-portfolio project begins with audience and content requirements, moves through design and implementation, is tested on mobile and desktop, deployed to hosting, and maintained as projects and dependencies change."
+
+Use the [SDLC interview question bank](../12-interview-preparation/sdlc-interview-questions.md). First explain SDLC from memory in 60–90 seconds, draw the seven stages, compare two models, answer 5–10 questions aloud, and complete one scenario. Mark each answer correct, incomplete, incorrect or unknown; revisit weak answers after 24–72 hours. Do not mark SDLC interview-ready until you can map a real project to all seven stages and handle follow-up questions without notes.
