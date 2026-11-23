@@ -3,7 +3,12 @@
 The operating-system and network knowledge expected across Cloud, DevOps, SRE and Platform roles.
 
 ## Software delivery lifecycle
-- [SDLC study notes](SDLC.md) — stages, models, DevOps/CI/CD, DevSecOps and interview revision.
+- [SDLC study notes](SDLC.md) — beginner-first lifecycle explanation, seven stages, models, DevOps/CI/CD, DevSecOps, glossary, diagrams and e-portfolio example.
+
+## Linux foundations covered so far
+- [Linux foundations chapter](LINUX-FOUNDATIONS.md) — OS and Linux architecture, filesystem, command-line operations, text processing, users/groups/permissions, processes/signals, systemd and APT package management.
+- [Daily Linux command practice](LINUX-DAILY-COMMAND-PRACTICE.md) — safe 15–20 minute revision loop and weekly rotation.
+- [Linux interview questions and scenarios](../12-interview-preparation/linux-foundations-interview-questions.md) — topic questions and troubleshooting prompts for the material studied so far.
 
 ## Topics
 - Linux architecture, boot, filesystem, permissions, users and groups.
