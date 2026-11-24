@@ -38,7 +38,7 @@ You are a resume editor, not an author. The facts belong to Amit.
 
 ## 4. Verified Facts (the only source for content)
 
-**Header:** Amit P M | Karnataka, India | 7349400805 | amitpm.work@gmail.com | linkedin.com/in/amitpm8 | github.com/amit-cloudops-ai | portfolio https://amitpm.dpdns.org/
+**Header:** Amit P M | Karnataka, India | 7349400805 | amitpm.work@gmail.com | www.linkedin.com/in/amitops | github.com/amit-cloudops-ai | portfolio https://amitpm.dpdns.org/
 
 **Education:** B.Tech, Metallurgical and Materials Engineering, NITK Surathkal. Do not display the graduation/pass-out year, CGPA or percentage.
 
@@ -120,7 +120,7 @@ You are a resume editor, not an author. The facts belong to Amit.
 \begin{document}
 \begin{center}\vspace{0pt}
 {\bfseries\fontsize{19}{21}\selectfont Amit P M}\\[1pt]
-{\fontsize{11}{12}\selectfont Karnataka, India | \href{https://linkedin.com/in/amitpm8}{\textcolor{blue}{\underline{LinkedIn}}} | \href{https://github.com/amit-cloudops-ai}{\textcolor{blue}{\underline{GitHub}}} | \href{https://amitpm.dpdns.org/}{\textcolor{blue}{\underline{Portfolio}}} | 7349400805 | amitpm.work@gmail.com}
+{\fontsize{11}{12}\selectfont Karnataka, India | \href{https://www.linkedin.com/in/amitops}{\textcolor{blue}{\underline{LinkedIn}}} | \href{https://github.com/amit-cloudops-ai}{\textcolor{blue}{\underline{GitHub}}} | \href{https://amitpm.dpdns.org/}{\textcolor{blue}{\underline{Portfolio}}} | 7349400805 | amitpm.work@gmail.com}
 \end{center}
 \vspace{-4pt}
 
